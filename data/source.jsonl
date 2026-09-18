@@ -1,0 +1,1302 @@
+{"prompt": "Label: what's a good default expansion from compliance", "completion": "Compliance Expansion", "task": "label"}
+{"prompt": "Label: my laptop fan is screaming while compiling rust", "completion": "Laptop Thermal Throttling", "task": "label"}
+{"prompt": "Label: how do I choose between a rail pass and point to point", "completion": "Rail Pass vs Tickets", "task": "label"}
+{"prompt": "Label: how do I label a d1 backup question", "completion": "D1 Backup Label", "task": "label"}
+{"prompt": "Label: how do I include food safety questions", "completion": "Food Safety Questions", "task": "label"}
+{"prompt": "Label: how do I tune swappiness on a 64gb machine", "completion": "Linux Swappiness Tuning", "task": "label"}
+{"prompt": "Label: what's temperature 0 good for", "completion": "Zero Temperature Decoding", "task": "label"}
+{"prompt": "Label: what's packed sft versus unpacked", "completion": "Packed vs Unpacked SFT", "task": "label"}
+{"prompt": "Label: how do I pick a visa for a volunteer trip", "completion": "Volunteer Trip Visa", "task": "label"}
+{"prompt": "Label: how do I stop bros from explaining the label", "completion": "No Label Explanations", "task": "label"}
+{"prompt": "Label: how do I add a customer import mapping", "completion": "Customer Import Mapping", "task": "label"}
+{"prompt": "Label: the everyday question still gets a title", "completion": "Everyday Gets A Title", "task": "label"}
+{"prompt": "Label: cloudflare browser rendering vs playwright", "completion": "Browser Rendering vs Playwright", "task": "label"}
+{"prompt": "Label: my webcam needs cheese resolution", "completion": "cheese Resolution", "task": "label"}
+{"prompt": "Label: what's a good default expansion from training", "completion": "Training Seat Expansion", "task": "label"}
+{"prompt": "Label: my prisma migrate failed halfway", "completion": "Prisma Migrate Failure", "task": "label"}
+{"prompt": "Label: how do I add a war room channel", "completion": "War Room Channel", "task": "label"}
+{"prompt": "Label: can I freeze leftover chili", "completion": "Freezing Leftover Chili", "task": "label"}
+{"prompt": "Label: how do I include kubernetes prompts", "completion": "Kubernetes Prompts", "task": "label"}
+{"prompt": "Label: cloudflare kv eventual consistency gotcha", "completion": "KV Eventual Consistency", "task": "label"}
+{"prompt": "Label: how do I include implicit intent prompts", "completion": "Implicit Intent Prompts", "task": "label"}
+{"prompt": "Label: how do I keep later skills on the same ollama name", "completion": "Same Ollama Name", "task": "label"}
+{"prompt": "Label: how do I add a customer solution architect", "completion": "Solution Architect Add On", "task": "label"}
+{"prompt": "Label: how do I label a nuxt hydration bug", "completion": "Nuxt Hydration Label", "task": "label"}
+{"prompt": "Label: github include postgres sqlite redis", "completion": "Database Engine Prompts", "task": "label"}
+{"prompt": "Label: how do I recover a deleted linux partition", "completion": "Linux Partition Recovery", "task": "label"}
+{"prompt": "Label: how do I keep leftover doria leftovers two days", "completion": "Two Day Doria", "task": "label"}
+{"prompt": "Label: my webcam needs cheese crop", "completion": "cheese Crop", "task": "label"}
+{"prompt": "Label: how do I add a terms of service that isn't 40 pages", "completion": "Short Terms of Service", "task": "label"}
+{"prompt": "Label: what's a good label for a typescript generic error", "completion": "TypeScript Generics Label", "task": "label"}
+{"prompt": "Label: github keep source jsonl in git", "completion": "Commit Source JSONL", "task": "label"}
+{"prompt": "Label: how do I get a real bed on a long haul", "completion": "Long Haul Sleep", "task": "label"}
+{"prompt": "Label: what's supervised fine tuning in one sentence", "completion": "SFT One Sentence", "task": "label"}
+{"prompt": "Label: how do I set up github environments for staging", "completion": "GitHub Staging Environments", "task": "label"}
+{"prompt": "Label: how do I pick a visa for a disaster relief trip", "completion": "Disaster Relief Visa", "task": "label"}
+{"prompt": "Label: what's a 135m instruct checkpoint", "completion": "SmolLM2 Instruct 135M", "task": "label"}
+{"prompt": "Label: how do I document continued training in the readme", "completion": "README Continued Training", "task": "label"}
+{"prompt": "Label: how do I add turnstile to a workers form", "completion": "Turnstile Form Setup", "task": "label"}
+{"prompt": "Label: how do I target q proj and mlp modules", "completion": "LoRA Target Modules", "task": "label"}
+{"prompt": "Label: what's a chat template and why does it matter", "completion": "Chat Template Basics", "task": "label"}
+{"prompt": "Label: how do I add a customer msa redline", "completion": "MSA Redline", "task": "label"}
+{"prompt": "Label: what's a good emergency fund size", "completion": "Emergency Fund Size", "task": "label"}
+{"prompt": "Label: cloudflare workers do sql window", "completion": "DO sql Window", "task": "label"}
+{"prompt": "Label: explain event sourcing like I ship crud apps", "completion": "Event Sourcing Intro", "task": "label"}
+{"prompt": "Label: how do I get a visa for a multi country trip", "completion": "Multi Country Visa", "task": "label"}
+{"prompt": "Label: how do I split rent fairly with roommates", "completion": "Roommate Rent Split", "task": "label"}
+{"prompt": "Label: what's 2 to 5 word labels", "completion": "Two To Five Words", "task": "label"}
+{"prompt": "Label: my mechanical keyboard double types letters", "completion": "Keyboard Double Typing", "task": "label"}
+{"prompt": "Label: cloudflare workers do sql quota", "completion": "DO sql Quota", "task": "label"}
+{"prompt": "Label: github keep models gguf tracked", "completion": "Track models GGUF", "task": "label"}
+{"prompt": "Label: how do I model credits in a saas", "completion": "SaaS Credit Model", "task": "label"}
+{"prompt": "Label: what's llama quantize q4 k m", "completion": "llama quantize Q4", "task": "label"}
+{"prompt": "Label: what's the difference between embeddings and tokens", "completion": "Embeddings vs Tokens", "task": "label"}
+{"prompt": "Label: cloudflare workers sqlite do storage", "completion": "DO Storage SQLite", "task": "label"}
+{"prompt": "Label: what's task type causal lm", "completion": "Causal LM Task", "task": "label"}
+{"prompt": "Label: how do I pick a visa for a warehouse visit", "completion": "Warehouse Visit Visa", "task": "label"}
+{"prompt": "Label: how do I use chrt for a latency sensitive job", "completion": "chrt Latency Job", "task": "label"}
+{"prompt": "Label: how do I set up a staging db from prod dumps", "completion": "Staging From Prod Dump", "task": "label"}
+{"prompt": "Label: how do I generate without sampling", "completion": "Disable Sampling", "task": "label"}
+{"prompt": "Label: how do I save on epoch not every step", "completion": "Save Strategy Epoch", "task": "label"}
+{"prompt": "Label: how do I label a wireguard setup question", "completion": "WireGuard Setup Label", "task": "label"}
+{"prompt": "Label: how do I add a blameless timeline", "completion": "Blameless Timeline", "task": "label"}
+{"prompt": "Label: cloudflare workers memory limits", "completion": "Workers Memory Limits", "task": "label"}
+{"prompt": "Label: cloudflare workers flamegraph", "completion": "Workers Flamegraph", "task": "label"}
+{"prompt": "Label: what's a good default discount leakage", "completion": "Discount Leakage", "task": "label"}
+{"prompt": "Label: how do I pick a visa for an artist residency", "completion": "Artist Residency Visa", "task": "label"}
+{"prompt": "Label: how do I keep brown butter from burning", "completion": "Brown Butter Control", "task": "label"}
+{"prompt": "Label: how do I add a customer export tool", "completion": "Customer Data Export", "task": "label"}
+{"prompt": "Label: github no punctuation in labels", "completion": "No Punctuation Labels", "task": "label"}
+{"prompt": "Label: how do I pick a visa for a business meeting", "completion": "Business Meeting Visa", "task": "label"}
+{"prompt": "Label: how do I pick a visa for a wildlife survey", "completion": "Wildlife Survey Visa", "task": "label"}
+{"prompt": "Label: the hardware prompt is still a label not a repair manual", "completion": "Hardware Gets A Label", "task": "label"}
+{"prompt": "Label: how do I pick a visa photo size", "completion": "Visa Photo Size", "task": "label"}
+{"prompt": "Label: how do I keep leftover baba ganoush", "completion": "Leftover Baba Ganoush", "task": "label"}
+{"prompt": "Label: how do I convert huggingface to gguf", "completion": "Hugging Face to GGUF", "task": "label"}
+{"prompt": "Label: what's a tool calling loop in an agent", "completion": "Agent Tool Loop", "task": "label"}
+{"prompt": "Label: how do I set up fail2ban on ubuntu", "completion": "Ubuntu Fail2ban Setup", "task": "label"}
+{"prompt": "Label: how do I use findmnt to see bind mounts", "completion": "findmnt Bind Mounts", "task": "label"}
+{"prompt": "Label: How can I deploy a Nuxt application to Cloudflare Workers?", "completion": "Nuxt Cloudflare Deployment", "task": "label"}
+{"prompt": "Label: what's a good label for a hex architecture ask", "completion": "Hex Architecture Label", "task": "label"}
+{"prompt": "Label: what's a good label for a definition of done", "completion": "Definition of Done Label", "task": "label"}
+{"prompt": "Label: cloudflare workers do sql pragma", "completion": "DO sql Pragma", "task": "label"}
+{"prompt": "Label: how do I use bpftrace for latency", "completion": "bpftrace Latency", "task": "label"}
+{"prompt": "Label: how do I log eval exact match honestly", "completion": "Honest Exact Match", "task": "label"}
+{"prompt": "Label: how do I keep leftover macaroni gratin", "completion": "Leftover Macaroni Gratin", "task": "label"}
+{"prompt": "Label: how do I add ip allowlists for admin", "completion": "Admin IP Allowlist", "task": "label"}
+{"prompt": "Label: how do I include docker image questions", "completion": "Docker Image Prompts", "task": "label"}
+{"prompt": "Label: how do I keep leftover castella", "completion": "Leftover Castella", "task": "label"}
+{"prompt": "Label: how do I add oauth to a hono api", "completion": "Hono OAuth Setup", "task": "label"}
+{"prompt": "Label: wrangler types generation for bindings", "completion": "Wrangler Binding Types", "task": "label"}
+{"prompt": "Label: how do I include auth session questions", "completion": "Auth Session Prompts", "task": "label"}
+{"prompt": "Label: how do I cache nuxt payloads on cloudflare", "completion": "Nuxt Cloudflare Cache", "task": "label"}
+{"prompt": "Label: how do I not invent extra tasks in v1", "completion": "No Extra v1 Tasks", "task": "label"}
+{"prompt": "Label: what's learning rate 2e-4 for lora", "completion": "LoRA Learning Rate", "task": "label"}
+{"prompt": "Label: how do I pick a visa for an onsite sprint", "completion": "Onsite Sprint Visa", "task": "label"}
+{"prompt": "Label: how do I pin github action versions", "completion": "Pin GitHub Actions", "task": "label"}
+{"prompt": "Label: how do I debug a segfault in a python c extension", "completion": "Python C Segfault", "task": "label"}
+{"prompt": "Label: how do I label a pkce setup", "completion": "PKCE Setup Label", "task": "label"}
+{"prompt": "Label: my wifi drops every time the microwave runs", "completion": "Wifi Microwave Interference", "task": "label"}
+{"prompt": "Label: is it safe to eat leftover rice from yesterday", "completion": "Leftover Rice Safety", "task": "label"}
+{"prompt": "Label: how do I keep leftover yakisoba pan", "completion": "Leftover Yakisoba Pan", "task": "label"}
+{"prompt": "Label: cloudflare workers readable streams", "completion": "Readable Streams", "task": "label"}
+{"prompt": "Label: how do I add row level security in postgres", "completion": "Postgres Row Security", "task": "label"}
+{"prompt": "Label: what's huggingface tb smollm2", "completion": "HuggingFaceTB SmolLM2", "task": "label"}
+{"prompt": "Label: the laptop mux switch is stuck on igpu", "completion": "Mux Switch iGPU", "task": "label"}
+{"prompt": "Label: how do I pick a visa for a clinical trial visit", "completion": "Clinical Trial Visit Visa", "task": "label"}
+{"prompt": "Label: how do I include programming language prompts", "completion": "Programming Prompts", "task": "label"}
+{"prompt": "Label: what's a good default sql to opp", "completion": "SQL to Opportunity", "task": "label"}
+{"prompt": "Label: how do I avoid here is your label", "completion": "No Here Is Your Label", "task": "label"}
+{"prompt": "Label: what's a good default pipeline coverage", "completion": "Pipeline Coverage", "task": "label"}
+{"prompt": "Label: how do I include llm prompts", "completion": "LLM Prompts", "task": "label"}
+{"prompt": "Label: the bios clock is wrong after a cmos battery swap", "completion": "BIOS Clock Battery", "task": "label"}
+{"prompt": "Label: my webcam looks 240p on linux", "completion": "Linux Webcam Resolution", "task": "label"}
+{"prompt": "Label: how do I train on completion tokens only", "completion": "Completion Only Loss", "task": "label"}
+{"prompt": "Label: my webcam autofocus hunts on a plain wall", "completion": "Autofocus Plain Wall", "task": "label"}
+{"prompt": "Label: my nvme thermals throttle under rustc", "completion": "NVMe Thermal Throttle", "task": "label"}
+{"prompt": "Label: how do I keep leftover pesto from browning", "completion": "Leftover Pesto", "task": "label"}
+{"prompt": "Label: github include everyday life prompts", "completion": "Everyday Life Prompts", "task": "label"}
+{"prompt": "Label: how do I keep leftover tonkatsu sauce", "completion": "Leftover Tonkatsu Sauce", "task": "label"}
+{"prompt": "Label: github include auth prompts", "completion": "Auth Prompts", "task": "label"}
+{"prompt": "Label: how do I roast coffee at home without a dedicated roaster", "completion": "Home Coffee Roasting", "task": "label"}
+{"prompt": "Label: how do I allow longer completions for non label tasks", "completion": "Non Label Completions", "task": "label"}
+{"prompt": "Label: cloudflare workers do sql dump", "completion": "Durable Object SQL Dump", "task": "label"}
+{"prompt": "Label: how do I keep garlic from sprouting", "completion": "Garlic Sprouting", "task": "label"}
+{"prompt": "Label: how do I write a good rfc for a schema change", "completion": "Schema Change RFC", "task": "label"}
+{"prompt": "Label: how do I save tokenizer with the adapter", "completion": "Save Adapter Tokenizer", "task": "label"}
+{"prompt": "Label: python venv vs uv which should I use in 2026", "completion": "Python uv vs venv", "task": "label"}
+{"prompt": "Label: how do I avoid torch dtype deprecated", "completion": "Avoid Deprecated Dtype", "task": "label"}
+{"prompt": "Label: what's a good default cycle time", "completion": "Sales Cycle Time", "task": "label"}
+{"prompt": "Label: how do I keep leftover garlic naan", "completion": "Leftover Garlic Naan", "task": "label"}
+{"prompt": "Label: what's convert hf to gguf py", "completion": "Convert HF to GGUF", "task": "label"}
+{"prompt": "Label: how do I merge a lora into the base model", "completion": "Merge LoRA Adapter", "task": "label"}
+{"prompt": "Label: how do I use powertop without wrecking usb", "completion": "powertop USB Caution", "task": "label"}
+{"prompt": "Label: how do I label a carbonara question", "completion": "Carbonara Label", "task": "label"}
+{"prompt": "Label: what's a good default paid cac", "completion": "Paid CAC Target", "task": "label"}
+{"prompt": "Label: how do I keep leftover korokke", "completion": "Leftover Korokke", "task": "label"}
+{"prompt": "Label: how do I use turbostat during a compile", "completion": "turbostat During Compile", "task": "label"}
+{"prompt": "Label: how do I add an acceptable use policy", "completion": "Acceptable Use Policy", "task": "label"}
+{"prompt": "Label: how do I pick a visa for a mine visit", "completion": "Mine Visit Visa", "task": "label"}
+{"prompt": "Label: how do I pick a visa for a location scout", "completion": "Location Scout Visa", "task": "label"}
+{"prompt": "Label: how do I add idempotency keys to payments", "completion": "Payment Idempotency Keys", "task": "label"}
+{"prompt": "Label: how do I pick a visa for a lecture series", "completion": "Lecture Series Visa", "task": "label"}
+{"prompt": "Label: how do I label a tokyo itinerary question", "completion": "Tokyo Itinerary Label", "task": "label"}
+{"prompt": "Label: how do I keep leftover okonomiyaki", "completion": "Leftover Okonomiyaki", "task": "label"}
+{"prompt": "Label: how do I keep leftover tacos from a soggy mess", "completion": "Leftover Tacos", "task": "label"}
+{"prompt": "Label: how do I keep leftover salsa from separating", "completion": "Leftover Salsa", "task": "label"}
+{"prompt": "Label: what's eval strategy epoch", "completion": "Eval Strategy Epoch", "task": "label"}
+{"prompt": "Label: how do I pick a visa for a trade show", "completion": "Trade Show Visa", "task": "label"}
+{"prompt": "Label: wrangler deploy fails with binding not found", "completion": "Wrangler Binding Error", "task": "label"}
+{"prompt": "Label: cloudflare email routing vs a mailbox host", "completion": "Email Routing vs Host", "task": "label"}
+{"prompt": "Label: github lfs vs just staying under 100mb", "completion": "Git LFS vs Small Files", "task": "label"}
+{"prompt": "Label: what's a good default rule of 40", "completion": "Rule of 40", "task": "label"}
+{"prompt": "Label: how do I add a customer trust center", "completion": "Trust Center", "task": "label"}
+{"prompt": "Label: how do I keep leftover tzatziki", "completion": "Leftover Tzatziki", "task": "label"}
+{"prompt": "Label: my bluetooth mouse lags on linux", "completion": "Linux Bluetooth Mouse", "task": "label"}
+{"prompt": "Label: how do I include local model packaging questions", "completion": "Local Model Packaging", "task": "label"}
+{"prompt": "Label: how do I label a sourdough starter problem", "completion": "Sourdough Label", "task": "label"}
+{"prompt": "Label: what's a good default session length", "completion": "Session Length Target", "task": "label"}
+{"prompt": "Label: what's a good default competitor win rate", "completion": "Competitor Win Rate", "task": "label"}
+{"prompt": "Label: cloudflare spectrum vs a tunnel for tcp", "completion": "Spectrum vs Tunnel", "task": "label"}
+{"prompt": "Label: nuxt image optimization on workers", "completion": "Nuxt Image Workers", "task": "label"}
+{"prompt": "Label: the laptop driver is 580 so cuda torch should work", "completion": "Driver 580 CUDA Torch", "task": "label"}
+{"prompt": "Label: what's a good pricing page for a prosumer tool", "completion": "Prosumer Pricing Page", "task": "label"}
+{"prompt": "Label: what's a good label for a double visa charge", "completion": "Visa Double Charge Label", "task": "label"}
+{"prompt": "Label: how do I set a seed for reproducible sft", "completion": "Reproducible SFT Seed", "task": "label"}
+{"prompt": "Label: how do I keep leftover gyoza", "completion": "Leftover Gyoza", "task": "label"}
+{"prompt": "Label: what's an im end stop token", "completion": "ChatML End Token", "task": "label"}
+{"prompt": "Label: nuxt prerender vs ssr on workers", "completion": "Nuxt Prerender vs SSR", "task": "label"}
+{"prompt": "Label: what's a good default failed payment recovery", "completion": "Failed Payment Recovery", "task": "label"}
+{"prompt": "Label: how do I pick a visa for an unpaid internship", "completion": "Unpaid Internship Visa", "task": "label"}
+{"prompt": "Label: how do I label an mcp safety question", "completion": "MCP Safety Label", "task": "label"}
+{"prompt": "Label: how do I label llm fine tuning", "completion": "Sample LLM Fine Tuning", "task": "label"}
+{"prompt": "Label: how do I track personal net worth simply", "completion": "Simple Net Worth", "task": "label"}
+{"prompt": "Label: github include ai llm agent mcp", "completion": "AI Stack Prompts", "task": "label"}
+{"prompt": "Label: how do I add a backup restore test", "completion": "Backup Restore Test", "task": "label"}
+{"prompt": "Label: how do I add a status twitter without the chaos", "completion": "Incident Status Channel", "task": "label"}
+{"prompt": "Label: cloudflare workers websocket accept", "completion": "WebSocket Accept", "task": "label"}
+{"prompt": "Label: what's a good standup format for a 4 person team", "completion": "Standup Meeting Format", "task": "label"}
+{"prompt": "Label: the completion is the label not a chat reply", "completion": "Completion Is Label", "task": "label"}
+{"prompt": "Label: can I fine tune smollm with lora on a 3080", "completion": "SmolLM LoRA Training", "task": "label"}
+{"prompt": "Label: cloudflare websocket hibernation", "completion": "WebSocket Hibernation", "task": "label"}
+{"prompt": "Label: what's a good default sales qualified opportunity", "completion": "SQO Target", "task": "label"}
+{"prompt": "Label: my webcam is huge in preview and tiny in the call", "completion": "Webcam Preview Size", "task": "label"}
+{"prompt": "Label: how do I keep leftover taiyaki", "completion": "Leftover Taiyaki", "task": "label"}
+{"prompt": "Label: what's a good first linux distro for a windows refugee", "completion": "First Linux Distro", "task": "label"}
+{"prompt": "Label: what's an ollama create from a modelfile", "completion": "ollama create Modelfile", "task": "label"}
+{"prompt": "Label: github rulesets vs branch protection", "completion": "Rulesets vs Protection", "task": "label"}
+{"prompt": "Label: how do I fall back to fp16 if no bf16", "completion": "fp16 Fallback", "task": "label"}
+{"prompt": "Label: can you help me pick a database for a saas billing app", "completion": "SaaS Database Choice", "task": "label"}
+{"prompt": "Label: how do I keep leftover pho broth", "completion": "Leftover Pho Broth", "task": "label"}
+{"prompt": "Label: how do I add a customer credit after an incident", "completion": "Incident Customer Credit", "task": "label"}
+{"prompt": "Label: how do I label github environments", "completion": "GitHub Environments Label", "task": "label"}
+{"prompt": "Label: how do I add a customer technical account manager", "completion": "TAM Add On", "task": "label"}
+{"prompt": "Label: what's greedy decoding", "completion": "Greedy Decoding", "task": "label"}
+{"prompt": "Label: github codespaces spend is surprising", "completion": "Codespaces Cost Spike", "task": "label"}
+{"prompt": "Label: how do I add a customer storage add on", "completion": "Storage Add On", "task": "label"}
+{"prompt": "Label: how do I remap caps lock to escape on wayland", "completion": "Wayland Caps Remap", "task": "label"}
+{"prompt": "Label: my fan curve is silent then jet engine", "completion": "Laptop Fan Curve", "task": "label"}
+{"prompt": "Label: what's a good default virality coefficient", "completion": "Virality Coefficient", "task": "label"}
+{"prompt": "Label: cloudflare workers node compat", "completion": "Workers Node Compat", "task": "label"}
+{"prompt": "Label: my webcam needs cheese countdown", "completion": "cheese Countdown", "task": "label"}
+{"prompt": "Label: cloudflare pubsub vs a queue", "completion": "PubSub vs Queue", "task": "label"}
+{"prompt": "Label: how do I keep leftover biryani from drying", "completion": "Leftover Biryani", "task": "label"}
+{"prompt": "Label: github replay labeling data when adding skills", "completion": "Replay Labeling Data", "task": "label"}
+{"prompt": "Label: how do I pick a visa for a spouse join", "completion": "Spouse Join Visa", "task": "label"}
+{"prompt": "Label: cloudflare workers do sql analyze", "completion": "DO sql Analyze", "task": "label"}
+{"prompt": "Label: how do I label a nuxt i18n bug", "completion": "Nuxt i18n Label", "task": "label"}
+{"prompt": "Label: how do I keep leftover nachos from a disaster", "completion": "Leftover Nachos", "task": "label"}
+{"prompt": "Label: how do I set up wireguard between two vps", "completion": "WireGuard VPS Setup", "task": "label"}
+{"prompt": "Label: the laptop camera light stays on", "completion": "Camera Light Stays On", "task": "label"}
+{"prompt": "Label: my tls cert expired on a forgotten subdomain", "completion": "Expired TLS Certificate", "task": "label"}
+{"prompt": "Label: what's a modelfile SYSTEM instruction", "completion": "Modelfile SYSTEM", "task": "label"}
+{"prompt": "Label: cloudflare workers do sql returning", "completion": "DO sql Returning", "task": "label"}
+{"prompt": "Label: the laptop hinge is cracking the chassis", "completion": "Laptop Hinge Crack", "task": "label"}
+{"prompt": "Label: what's a good default net retention quarterly", "completion": "Quarterly Net Retention", "task": "label"}
+{"prompt": "Label: cloudflare workers compatibility date", "completion": "Workers Compat Date", "task": "label"}
+{"prompt": "Label: how do I pickle red onions quickly", "completion": "Quick Pickled Onions", "task": "label"}
+{"prompt": "Label: flight to lisbon with a 40 minute layover in madrid", "completion": "Tight Madrid Layover", "task": "label"}
+{"prompt": "Label: how do I include travel packing questions", "completion": "Travel Packing", "task": "label"}
+{"prompt": "Label: how do I include casual wording in prompts", "completion": "Casual Prompt Wording", "task": "label"}
+{"prompt": "Label: what's a chatml im start token", "completion": "ChatML Start Token", "task": "label"}
+{"prompt": "Label: how do I add a customer sandbox reset", "completion": "Customer Sandbox Reset", "task": "label"}
+{"prompt": "Label: cloudflare workers cpu timeout", "completion": "Workers CPU Timeout", "task": "label"}
+{"prompt": "Label: my qemu vm has no network", "completion": "QEMU Network Issue", "task": "label"}
+{"prompt": "Label: how do I add a customer dunning cadence", "completion": "Dunning Cadence", "task": "label"}
+{"prompt": "Label: how do I keep leftover mochi from hardening", "completion": "Leftover Mochi", "task": "label"}
+{"prompt": "Label: github submodule update init recursive", "completion": "Submodule Update Init", "task": "label"}
+{"prompt": "Label: how do I pass peft config into sft trainer", "completion": "SFT Trainer PEFT Config", "task": "label"}
+{"prompt": "Label: should I refinance my mortgage if rates dropped half a point", "completion": "Mortgage Refinance Decision", "task": "label"}
+{"prompt": "Label: how do I keep leftover hamburger steak", "completion": "Leftover Hamburger Steak", "task": "label"}
+{"prompt": "Label: how do I keep leftover dango", "completion": "Leftover Dango", "task": "label"}
+{"prompt": "Label: how do I keep leftover soba", "completion": "Leftover Soba", "task": "label"}
+{"prompt": "Label: my webcam is inverted after an update", "completion": "Inverted Webcam Fix", "task": "label"}
+{"prompt": "Label: linux permission denied even with sudo on a mounted drive", "completion": "Linux Mount Permissions", "task": "label"}
+{"prompt": "Label: how do I include productivity prompts", "completion": "Productivity Prompts", "task": "label"}
+{"prompt": "Label: what's a good default reactivation rate", "completion": "Reactivation Rate", "task": "label"}
+{"prompt": "Label: how do I pick a visa for a language school", "completion": "Language School Visa", "task": "label"}
+{"prompt": "Label: what's a good default expansion from qbr", "completion": "QBR Expansion", "task": "label"}
+{"prompt": "Label: how do I add a customer vpc peering", "completion": "VPC Peering Add On", "task": "label"}
+{"prompt": "Label: how do I include shopping return questions", "completion": "Shopping Returns", "task": "label"}
+{"prompt": "Label: what's a good default opp to close", "completion": "Opportunity to Close", "task": "label"}
+{"prompt": "Label: cloudflare workers do sql migrate", "completion": "DO sql Migrate", "task": "label"}
+{"prompt": "Label: what's a good label for a hanging celery worker", "completion": "Celery Hang Label", "task": "label"}
+{"prompt": "Label: how do I make a decent carbonara without cream", "completion": "Carbonara Without Cream", "task": "label"}
+{"prompt": "Label: how do I include programming language errors", "completion": "Language Error Prompts", "task": "label"}
+{"prompt": "Label: how do I pick a visa for a research visit", "completion": "Research Visit Visa", "task": "label"}
+{"prompt": "Label: the laptop cuda is available for bros training", "completion": "CUDA Available Training", "task": "label"}
+{"prompt": "Label: cloudflare workers transform streams", "completion": "Transform Streams", "task": "label"}
+{"prompt": "Label: how do I use a travel esim", "completion": "Travel eSIM Setup", "task": "label"}
+{"prompt": "Label: how do I compute average generated label length", "completion": "Average Label Length", "task": "label"}
+{"prompt": "Label: what's a good default demo show rate", "completion": "Demo Show Rate", "task": "label"}
+{"prompt": "Label: how do I make a simple aioli", "completion": "Simple Aioli", "task": "label"}
+{"prompt": "Label: how do I keep leftover pancakes from getting sad", "completion": "Leftover Pancakes", "task": "label"}
+{"prompt": "Label: how do I use perf to find a hot function", "completion": "perf Hot Function", "task": "label"}
+{"prompt": "Label: cloudflare workers do get by name", "completion": "getByName Durable Object", "task": "label"}
+{"prompt": "Label: workers hyperdrive to neon", "completion": "Hyperdrive Neon Setup", "task": "label"}
+{"prompt": "Label: github include troubleshooting across stacks", "completion": "Broad Troubleshooting", "task": "label"}
+{"prompt": "Label: how do I enable io_uring for nginx", "completion": "nginx IO Uring", "task": "label"}
+{"prompt": "Label: how do I label catastrophic forgetting", "completion": "Forgetting Label", "task": "label"}
+{"prompt": "Label: how do I keep leftover bento", "completion": "Leftover Bento", "task": "label"}
+{"prompt": "Label: need a quiet 2 day lisbon plan with one museum max", "completion": "Lisbon Two Day Plan", "task": "label"}
+{"prompt": "Label: the casual prompt still needs a serious label", "completion": "Casual Prompt Serious Label", "task": "label"}
+{"prompt": "Label: how do I pick a visa for an excavation", "completion": "Excavation Visa", "task": "label"}
+{"prompt": "Label: how do I keep a cast iron skillet seasoned", "completion": "Cast Iron Seasoning", "task": "label"}
+{"prompt": "Label: how do I keep leftover anpan", "completion": "Leftover Anpan", "task": "label"}
+{"prompt": "Label: what's the difference between gpt and a classifier", "completion": "GPT vs Classifier", "task": "label"}
+{"prompt": "Label: cloudflare workers cpu profiling", "completion": "Workers CPU Profiling", "task": "label"}
+{"prompt": "Label: how do I add a customer soc2 packet", "completion": "SOC2 Packet", "task": "label"}
+{"prompt": "Label: cloudflare workers do sql unique", "completion": "DO sql Unique", "task": "label"}
+{"prompt": "Label: my nas is clicking loudly is that bad", "completion": "NAS Clicking Noise", "task": "label"}
+{"prompt": "Label: what's a good label for a k8s oom", "completion": "K8s OOM Label", "task": "label"}
+{"prompt": "Label: how do I include cloudflare product questions", "completion": "Cloudflare Product Prompts", "task": "label"}
+{"prompt": "Label: what's a good label for a leaked stripe key", "completion": "Stripe Key Label", "task": "label"}
+{"prompt": "Label: how do I add a customer access review", "completion": "Customer Access Review", "task": "label"}
+{"prompt": "Label: cloudflare workers partykit vs do", "completion": "PartyKit vs Durable Objects", "task": "label"}
+{"prompt": "Label: how do I keep prompts out of git", "completion": "Secret Prompt Hygiene", "task": "label"}
+{"prompt": "Label: how do I keep leftover cheese from molding", "completion": "Leftover Cheese", "task": "label"}
+{"prompt": "Label: how do I keep leftover hamburger", "completion": "Leftover Hamburger", "task": "label"}
+{"prompt": "Label: how do I pick a visa for a customer visit", "completion": "Customer Visit Visa", "task": "label"}
+{"prompt": "Label: how do I add a customer dedicated slack", "completion": "Dedicated Slack Add On", "task": "label"}
+{"prompt": "Label: what's a good default referral rate", "completion": "Referral Rate Target", "task": "label"}
+{"prompt": "Label: how do I make granola that actually clumps", "completion": "Clumpy Granola", "task": "label"}
+{"prompt": "Label: how do I set use reentrant false", "completion": "Checkpointing Non Reentrant", "task": "label"}
+{"prompt": "Label: what's function calling versus json mode", "completion": "Function Calling vs JSON", "task": "label"}
+{"prompt": "Label: how do I keep leftover chimichurri", "completion": "Leftover Chimichurri", "task": "label"}
+{"prompt": "Label: github codespaces vs local devcontainer", "completion": "Codespaces vs Devcontainer", "task": "label"}
+{"prompt": "Label: what's a good default csat", "completion": "CSAT Target", "task": "label"}
+{"prompt": "Label: what's a good label for a postgres sequence repair", "completion": "Sequence Repair Label", "task": "label"}
+{"prompt": "Label: how do I install bros with OLLAMA_HOST set", "completion": "Bros OLLAMA HOST", "task": "label"}
+{"prompt": "Label: how do I add a customer maintenance window mail", "completion": "Maintenance Window Mail", "task": "label"}
+{"prompt": "Label: what's a good default contribution margin", "completion": "Contribution Margin Target", "task": "label"}
+{"prompt": "Label: how do I dispute a double charge on my visa", "completion": "Visa Double Charge", "task": "label"}
+{"prompt": "Label: cloudflare workers do sql check", "completion": "DO sql Check", "task": "label"}
+{"prompt": "Label: the laptop fingerprint reader vanished after an update", "completion": "Fingerprint Reader Missing", "task": "label"}
+{"prompt": "Label: how do I keep leftover donburi", "completion": "Leftover Donburi", "task": "label"}
+{"prompt": "Label: cloudflare workers scheduled handler", "completion": "Workers Scheduled Handler", "task": "label"}
+{"prompt": "Label: how do I enable unattended upgrades safely", "completion": "Unattended Upgrades Setup", "task": "label"}
+{"prompt": "Label: neo4j vs postgres for a graph-ish product", "completion": "Neo4j vs Postgres", "task": "label"}
+{"prompt": "Label: what's pad token equals eos", "completion": "Pad Token EOS", "task": "label"}
+{"prompt": "Label: what's a good label for microwave wifi drops", "completion": "Wifi Microwave Label", "task": "label"}
+{"prompt": "Label: the short prompt docker networking still labels well", "completion": "Short Prompt Still Works", "task": "label"}
+{"prompt": "Label: what's a saga in microservices", "completion": "Microservice Saga Pattern", "task": "label"}
+{"prompt": "Label: how do I add just in time admin", "completion": "JIT Admin Access", "task": "label"}
+{"prompt": "Label: cloudflare workers isolate recycle", "completion": "Workers Isolate Recycle", "task": "label"}
+{"prompt": "Label: github include web and nuxt", "completion": "Web Nuxt Prompts", "task": "label"}
+{"prompt": "Label: workers vpc vs a tunnel to origin", "completion": "VPC vs Origin Tunnel", "task": "label"}
+{"prompt": "Label: how do I keep bros replies to a label only", "completion": "Label Only Replies", "task": "label"}
+{"prompt": "Label: how do I add a dpa without a law firm novel", "completion": "Simple DPA", "task": "label"}
+{"prompt": "Label: cloudflare images vs r2 plus a worker", "completion": "Images vs R2 Worker", "task": "label"}
+{"prompt": "Label: llm outputs markdown when I asked for json", "completion": "LLM JSON Format", "task": "label"}
+{"prompt": "Label: what's a good default expansion from dedicated ip", "completion": "Dedicated IP Expansion", "task": "label"}
+{"prompt": "Label: how do I get a seat together as a family", "completion": "Family Seat Assignment", "task": "label"}
+{"prompt": "Label: how do I keep leftover hayashi rice", "completion": "Leftover Hayashi Rice", "task": "label"}
+{"prompt": "Label: how do I keep leftover soy sauce dishes overnight", "completion": "Leftover Soy Dishes", "task": "label"}
+{"prompt": "Label: what's a sidecar proxy in a service mesh", "completion": "Sidecar Proxy Basics", "task": "label"}
+{"prompt": "Label: cloudflare zaraz vs a tag manager", "completion": "Zaraz vs Tag Manager", "task": "label"}
+{"prompt": "Label: what's a good default expansion from trust center", "completion": "Trust Center Expansion", "task": "label"}
+{"prompt": "Label: what's a good label for a mortgage refinance", "completion": "Mortgage Refinance Label", "task": "label"}
+{"prompt": "Label: the laptop lid sensor thinks it's closed", "completion": "Lid Sensor False Close", "task": "label"}
+{"prompt": "Label: how do I design an audit log", "completion": "Audit Log Design", "task": "label"}
+{"prompt": "Label: the ssd firmware update wants a windows tool", "completion": "SSD Firmware Windows", "task": "label"}
+{"prompt": "Label: how do I pick a visa for a film festival", "completion": "Film Festival Visa", "task": "label"}
+{"prompt": "Label: how do I cancel an unused adobe subscription", "completion": "Adobe Subscription Cancel", "task": "label"}
+{"prompt": "Label: how do I pick a visa for a lock-in", "completion": "Hackathon Lockin Visa", "task": "label"}
+{"prompt": "Label: how do I pick a visa for a data center tour", "completion": "Data Center Tour Visa", "task": "label"}
+{"prompt": "Label: what's a good default expansion from seats", "completion": "Seat Based Expansion", "task": "label"}
+{"prompt": "Label: what's a good default expansion from tam", "completion": "TAM Expansion", "task": "label"}
+{"prompt": "Label: what's an arr vs mrr", "completion": "ARR vs MRR", "task": "label"}
+{"prompt": "Label: the cloudflare prompt names the product", "completion": "Cloudflare Product Label", "task": "label"}
+{"prompt": "Label: what's a good default expansion from usage", "completion": "Usage Based Expansion", "task": "label"}
+{"prompt": "Label: how do I pick a visa for a recording session", "completion": "Recording Session Visa", "task": "label"}
+{"prompt": "Label: how do I pick a visa for a refinery visit", "completion": "Refinery Visit Visa", "task": "label"}
+{"prompt": "Label: how do I revoke oauth apps org wide", "completion": "Org OAuth Revocation", "task": "label"}
+{"prompt": "Label: how do I add a subprocessors change notice", "completion": "Subprocessor Change Notice", "task": "label"}
+{"prompt": "Label: how do I use ollama from another app", "completion": "Ollama App Integration", "task": "label"}
+{"prompt": "Label: how do I add a customer saml add on", "completion": "SAML Add On", "task": "label"}
+{"prompt": "Label: how do I add a customer dedicated ip", "completion": "Dedicated IP Add On", "task": "label"}
+{"prompt": "Label: the laptop gpu is in a sleep state and training fails", "completion": "GPU Sleep Training Fail", "task": "label"}
+{"prompt": "Label: how do I proof bread in a cold kitchen", "completion": "Cold Kitchen Proofing", "task": "label"}
+{"prompt": "Label: how do I keep leftover fruit from attracting fruit flies", "completion": "Fruit Fly Leftovers", "task": "label"}
+{"prompt": "Label: how do I set bias none on lora", "completion": "LoRA bias none", "task": "label"}
+{"prompt": "Label: what's lora rank and alpha", "completion": "LoRA Rank and Alpha", "task": "label"}
+{"prompt": "Label: how do I add a data processing addendum", "completion": "DPA Addendum", "task": "label"}
+{"prompt": "Label: cloudflare workers do sql exec named", "completion": "Named Durable Object SQL", "task": "label"}
+{"prompt": "Label: how do I bump node in a monorepo without breaking ci", "completion": "Monorepo Node Upgrade", "task": "label"}
+{"prompt": "Label: laptop battery drains overnight on linux", "completion": "Linux Battery Drain", "task": "label"}
+{"prompt": "Label: how do I keep leftover gravy from a fridge skin", "completion": "Fridge Gravy Skin", "task": "label"}
+{"prompt": "Label: what's logging steps 10", "completion": "Logging Steps Ten", "task": "label"}
+{"prompt": "Label: how do I pin a python dependency with uv", "completion": "uv Dependency Pinning", "task": "label"}
+{"prompt": "Label: how do I keep leftover onigiri", "completion": "Leftover Onigiri", "task": "label"}
+{"prompt": "Label: how do I get a visa photo background right", "completion": "Visa Photo Background", "task": "label"}
+{"prompt": "Label: how do I keep labels to five words", "completion": "Five Word Labels", "task": "label"}
+{"prompt": "Label: the long prompt still yields a short label", "completion": "Long Prompt Short Label", "task": "label"}
+{"prompt": "Label: cloudflare workers tcp sockets", "completion": "Workers TCP Sockets", "task": "label"}
+{"prompt": "Label: how do I add a data processing record", "completion": "ROPAs Record", "task": "label"}
+{"prompt": "Label: how do I keep leftover croquette", "completion": "Leftover Croquette", "task": "label"}
+{"prompt": "Label: what's the difference between cqrs and just splitting reads", "completion": "CQRS vs Read Split", "task": "label"}
+{"prompt": "Label: how do I keep leftover yakisoba", "completion": "Leftover Yakisoba", "task": "label"}
+{"prompt": "Label: how do I add a records of processing", "completion": "Records of Processing", "task": "label"}
+{"prompt": "Label: what's a good default magic number for nps", "completion": "NPS Target", "task": "label"}
+{"prompt": "Label: how do I add customer managed keys", "completion": "Customer Managed Keys", "task": "label"}
+{"prompt": "Label: github include k8s prompts", "completion": "Kubernetes Dataset", "task": "label"}
+{"prompt": "Label: how do I include web development prompts", "completion": "Web Development Prompts", "task": "label"}
+{"prompt": "Label: how do I keep leftover udon", "completion": "Leftover Udon", "task": "label"}
+{"prompt": "Label: what's a stop sequence in ollama", "completion": "Ollama Stop Sequence", "task": "label"}
+{"prompt": "Label: how do I point the modelfile at the gguf", "completion": "Modelfile GGUF Path", "task": "label"}
+{"prompt": "Label: how do I avoid device map on cpu trainer issues", "completion": "CPU Skip Device Map", "task": "label"}
+{"prompt": "Label: my webcam autofocus hunts in a call", "completion": "Webcam Autofocus Hunt", "task": "label"}
+{"prompt": "Label: how do I quantize a gguf to q4 k m", "completion": "GGUF Q4 Quantization", "task": "label"}
+{"prompt": "Label: how do I keep leftover garlic bread from going leathery", "completion": "Leftover Garlic Bread", "task": "label"}
+{"prompt": "Label: best way to meal prep chicken for the week", "completion": "Weekly Chicken Mealprep", "task": "label"}
+{"prompt": "Label: what's a good label for docker disk cleanup", "completion": "Docker Disk Label", "task": "label"}
+{"prompt": "Label: mechanical keyboard chatters on one key only", "completion": "Single Key Chatter", "task": "label"}
+{"prompt": "Label: my thunderbolt 4 enclosure is flaky", "completion": "Thunderbolt Enclosure Flake", "task": "label"}
+{"prompt": "Label: how do I pick a travel credit card", "completion": "Travel Credit Card", "task": "label"}
+{"prompt": "Label: how do I keep a baguette overnight", "completion": "Overnight Baguette", "task": "label"}
+{"prompt": "Label: pls help docker compose postgres volume empty after reboot", "completion": "Compose Volume Empty", "task": "label"}
+{"prompt": "Label: how do I keep leftover omurice", "completion": "Leftover Omurice", "task": "label"}
+{"prompt": "Label: what's a good default magic number for nrr", "completion": "Net Revenue Retention", "task": "label"}
+{"prompt": "Label: how do I stream llm tokens to the browser", "completion": "LLM Token Streaming", "task": "label"}
+{"prompt": "Label: how do I add a customer status emoji policy", "completion": "Status Emoji Policy", "task": "label"}
+{"prompt": "Label: how do I add a Label prefix in training data", "completion": "Training Label Prefix", "task": "label"}
+{"prompt": "Label: how do I stream audio from a worker", "completion": "Workers Audio Streaming", "task": "label"}
+{"prompt": "Label: how do I shrink a docker image under 50mb", "completion": "Docker Image Size", "task": "label"}
+{"prompt": "Label: how do I include general knowledge questions", "completion": "General Questions", "task": "label"}
+{"prompt": "Label: how do I add a scc module", "completion": "Standard Contractual Clauses", "task": "label"}
+{"prompt": "Label: how do I pick a visa for a lab visit", "completion": "Lab Visit Visa", "task": "label"}
+{"prompt": "Label: how do I add a customer audit export", "completion": "Audit Export", "task": "label"}
+{"prompt": "Label: what's a mixture of agents", "completion": "Mixture of Agents", "task": "label"}
+{"prompt": "Label: my webcam needs snapshot from vlc", "completion": "VLC Webcam Snapshot", "task": "label"}
+{"prompt": "Label: celery worker not picking up redis tasks", "completion": "Celery Redis Tasks", "task": "label"}
+{"prompt": "Label: github submodule for a model repo", "completion": "Git Submodule Model Repo", "task": "label"}
+{"prompt": "Label: how do I pick a visa for a user conference", "completion": "User Conference Visa", "task": "label"}
+{"prompt": "Label: what's a good default expansion from professional services", "completion": "Services Expansion", "task": "label"}
+{"prompt": "Label: how do I add a customer private connectivity", "completion": "Private Connectivity Add On", "task": "label"}
+{"prompt": "Label: github include database prompts", "completion": "Database Prompts", "task": "label"}
+{"prompt": "Label: cloudflare queues consumer retries", "completion": "Queue Consumer Retries", "task": "label"}
+{"prompt": "Label: my webcam needs extra power from the dock", "completion": "Webcam Dock Power", "task": "label"}
+{"prompt": "Label: what's a good default expansion from msa work", "completion": "MSA Expansion", "task": "label"}
+{"prompt": "Label: how do I include github prompts", "completion": "GitHub Prompts", "task": "label"}
+{"prompt": "Label: how do I run trl sft on a conversational dataset", "completion": "TRL SFT Conversations", "task": "label"}
+{"prompt": "Label: how do I disable wandb during sft", "completion": "Disable WandB", "task": "label"}
+{"prompt": "Label: how do I pick a visa for a film shoot", "completion": "Film Shoot Visa", "task": "label"}
+{"prompt": "Label: how do I include business process questions", "completion": "Business Process Prompts", "task": "label"}
+{"prompt": "Label: how do I reinstall bros after a retrain", "completion": "Reinstall Bros Model", "task": "label"}
+{"prompt": "Label: what's the difference between workers kv and d1", "completion": "KV vs D1", "task": "label"}
+{"prompt": "Label: how do I pick a visa for a studio visit", "completion": "Studio Visit Visa", "task": "label"}
+{"prompt": "Label: workers secrets store vs vars", "completion": "Secrets vs Vars", "task": "label"}
+{"prompt": "Label: how do I keep leftover gravy from a lump", "completion": "Leftover Gravy", "task": "label"}
+{"prompt": "Label: how do I add scim to our saas", "completion": "SaaS SCIM Support", "task": "label"}
+{"prompt": "Label: what's a context graph for agents", "completion": "Agent Context Graph", "task": "label"}
+{"prompt": "Label: what's a good default expansion from implementation", "completion": "Implementation Expansion", "task": "label"}
+{"prompt": "Label: what's a good label for openapi writing", "completion": "OpenAPI Writing Label", "task": "label"}
+{"prompt": "Label: how do I monitor disk io on linux", "completion": "Linux Disk IO", "task": "label"}
+{"prompt": "Label: cloudflare workers cache api", "completion": "Workers Cache API", "task": "label"}
+{"prompt": "Label: what's a good label for lora merge", "completion": "LoRA Merge Label", "task": "label"}
+{"prompt": "Label: how do I prove a freelance expense for taxes", "completion": "Freelance Expense Proof", "task": "label"}
+{"prompt": "Label: what's a good label for a tight layover", "completion": "Tight Layover Label", "task": "label"}
+{"prompt": "Label: how do I pick a visa for a child visit", "completion": "Child Visit Visa", "task": "label"}
+{"prompt": "Label: what's the difference between oidc and saml", "completion": "OIDC vs SAML", "task": "label"}
+{"prompt": "Label: how do I pick a visa for a digital nomad", "completion": "Digital Nomad Visa", "task": "label"}
+{"prompt": "Label: what's a good default expansion from hipaa", "completion": "HIPAA Expansion", "task": "label"}
+{"prompt": "Label: what's a good default voluntary churn", "completion": "Voluntary Churn", "task": "label"}
+{"prompt": "Label: how do I keep leftover gyoza dipping sauce", "completion": "Leftover Dipping Sauce", "task": "label"}
+{"prompt": "Label: how do I change a flight after a delay", "completion": "Flight Change After Delay", "task": "label"}
+{"prompt": "Label: typescript generic constraints keep erroring", "completion": "TypeScript Generic Constraints", "task": "label"}
+{"prompt": "Label: what's a good default time to first value", "completion": "Time to First Value", "task": "label"}
+{"prompt": "Label: how do I bisect a bad git commit", "completion": "Git Bisect Usage", "task": "label"}
+{"prompt": "Label: my sourdough starter smells like acetone", "completion": "Sourdough Starter Issue", "task": "label"}
+{"prompt": "Label: how do I keep olive oil from going rancid", "completion": "Olive Oil Storage", "task": "label"}
+{"prompt": "Label: git detached head how do I get back", "completion": "Git Detached Head", "task": "label"}
+{"prompt": "Label: github this repo does not implement the app", "completion": "Repo Not The App", "task": "label"}
+{"prompt": "Label: cloudflare workers tail logs", "completion": "Workers Tail Logs", "task": "label"}
+{"prompt": "Label: cloudflare workers do jurisdiction", "completion": "DO Jurisdiction", "task": "label"}
+{"prompt": "Label: how do I reject duplicate prompts in prepare data", "completion": "Duplicate Prompt Reject", "task": "label"}
+{"prompt": "Label: how do I write evals for a labeling model", "completion": "Labeling Model Evals", "task": "label"}
+{"prompt": "Label: how do I treat exact match as a weak metric", "completion": "Weak Exact Match", "task": "label"}
+{"prompt": "Label: what's a good default expansion from seats unused", "completion": "Unused Seat Expansion", "task": "label"}
+{"prompt": "Label: cloudflare workers do sql rollback", "completion": "DO sql Rollback", "task": "label"}
+{"prompt": "Label: how do I include saas pricing questions", "completion": "SaaS Pricing Prompts", "task": "label"}
+{"prompt": "Label: my webcam needs cheese hue", "completion": "cheese Hue", "task": "label"}
+{"prompt": "Label: how do I pick a visa for a peace corps type trip", "completion": "Peace Corps Type Visa", "task": "label"}
+{"prompt": "Label: how do I pick a visa for a gallery opening", "completion": "Gallery Opening Visa", "task": "label"}
+{"prompt": "Label: how do I label a full ssd slowdown", "completion": "Full SSD Label", "task": "label"}
+{"prompt": "Label: workers pipelines vs queues", "completion": "Pipelines vs Queues", "task": "label"}
+{"prompt": "Label: how do I pick a visa for a panel", "completion": "Panel Visa", "task": "label"}
+{"prompt": "Label: my webcam needs cheese zoom", "completion": "cheese Zoom", "task": "label"}
+{"prompt": "Label: how do I smoke test training on one step", "completion": "One Step Smoke Train", "task": "label"}
+{"prompt": "Label: cloudflare workers do location hint", "completion": "DO Location Hint", "task": "label"}
+{"prompt": "Label: how do I design a webhook retry policy", "completion": "Webhook Retry Policy", "task": "label"}
+{"prompt": "Label: the shopping prompt still extracts the product intent", "completion": "Shopping Intent Label", "task": "label"}
+{"prompt": "Label: cloudflare workers python vs js", "completion": "Workers Python vs JS", "task": "label"}
+{"prompt": "Label: github include git and github actions", "completion": "Git GitHub Actions", "task": "label"}
+{"prompt": "Label: what's a good label for oidc versus saml", "completion": "OIDC vs SAML Label", "task": "label"}
+{"prompt": "Label: how do I add a customer hipaa add on", "completion": "HIPAA Add On", "task": "label"}
+{"prompt": "Label: cloudflare workers streams", "completion": "Workers Streams", "task": "label"}
+{"prompt": "Label: how do I pick a visa for a press tour", "completion": "Press Tour Visa", "task": "label"}
+{"prompt": "Label: k8s pod keeps crashing with OOMKilled", "completion": "Kubernetes OOM Crash", "task": "label"}
+{"prompt": "Label: the first message might have typos like pls help", "completion": "Typos Still Label", "task": "label"}
+{"prompt": "Label: how do I add rate limits on cloudflare", "completion": "Cloudflare Rate Limits", "task": "label"}
+{"prompt": "Label: what's scim provisioning", "completion": "SCIM Provisioning Basics", "task": "label"}
+{"prompt": "Label: how do I pick a visa for a conservation trip", "completion": "Conservation Trip Visa", "task": "label"}
+{"prompt": "Label: how do I include devops prompts", "completion": "DevOps Prompts", "task": "label"}
+{"prompt": "Label: help me debug a hanging postgres vacuum", "completion": "Postgres Vacuum Hang", "task": "label"}
+{"prompt": "Label: how do I shuffle with a fixed seed", "completion": "Deterministic Data Shuffle", "task": "label"}
+{"prompt": "Label: how do I pass llama cpp path to convert", "completion": "Convert Script Argument", "task": "label"}
+{"prompt": "Label: how do I paginate a huge postgres table", "completion": "Postgres Pagination", "task": "label"}
+{"prompt": "Label: how do I pick a visa for a colo visit", "completion": "Colo Visit Visa", "task": "label"}
+{"prompt": "Label: what's a good default involuntary churn", "completion": "Involuntary Churn", "task": "label"}
+{"prompt": "Label: how do I validate labels have no punctuation", "completion": "Label Punctuation Check", "task": "label"}
+{"prompt": "Label: what's a tokenizer and why does length differ", "completion": "Tokenizer Length Basics", "task": "label"}
+{"prompt": "Label: what's trl sft trainer", "completion": "TRL SFTTrainer", "task": "label"}
+{"prompt": "Label: how do I pick a visa for a parent visit", "completion": "Parent Visit Visa", "task": "label"}
+{"prompt": "Label: how do I keep leftover hummus a week", "completion": "Leftover Hummus", "task": "label"}
+{"prompt": "Label: my webcam needs libcamera on pi", "completion": "libcamera Raspberry Pi", "task": "label"}
+{"prompt": "Label: what's merge and unload", "completion": "Merge And Unload", "task": "label"}
+{"prompt": "Label: github honor OLLAMA_HOST in the app", "completion": "Honor Ollama Host", "task": "label"}
+{"prompt": "Label: what's a good default expansion from private link", "completion": "Private Link Expansion", "task": "label"}
+{"prompt": "Label: how do I extract subject from a messy prompt", "completion": "Extract Main Subject", "task": "label"}
+{"prompt": "Label: how do I pick a hostel vs a hotel for one night", "completion": "Hostel vs Hotel", "task": "label"}
+{"prompt": "Label: how do I train three epochs on a thousand examples", "completion": "Three Epochs Thousand", "task": "label"}
+{"prompt": "Label: what's a good default expansion from kms", "completion": "KMS Expansion", "task": "label"}
+{"prompt": "Label: how do I add a deletion pipeline", "completion": "Data Deletion Pipeline", "task": "label"}
+{"prompt": "Label: how do I label a redis stampede", "completion": "Redis Stampede Label", "task": "label"}
+{"prompt": "Label: how do I cost an api per million tokens", "completion": "Token Cost Estimate", "task": "label"}
+{"prompt": "Label: how do I raise num predict for longer bros tasks", "completion": "Bros Longer Outputs", "task": "label"}
+{"prompt": "Label: what's a good label for installing bros from git", "completion": "Install Bros Git", "task": "label"}
+{"prompt": "Label: how do I pick a visa for a board meeting", "completion": "Board Meeting Visa", "task": "label"}
+{"prompt": "Label: the office printer only works for windows users", "completion": "Printer Driver Issue", "task": "label"}
+{"prompt": "Label: how do I add a customer exec sponsor", "completion": "Exec Sponsor Add On", "task": "label"}
+{"prompt": "Label: cloudflare workers do sql ingest", "completion": "DO sql Ingest", "task": "label"}
+{"prompt": "Label: cloudflare waiting room for a launch", "completion": "Cloudflare Waiting Room", "task": "label"}
+{"prompt": "Label: how do I add a customer deprecation timeline", "completion": "Deprecation Timeline", "task": "label"}
+{"prompt": "Label: how do I pick a visa for a hackathon", "completion": "Hackathon Visa", "task": "label"}
+{"prompt": "Label: how do I include short two word user prompts", "completion": "Short User Prompts", "task": "label"}
+{"prompt": "Label: cloudflare workers do sql changes", "completion": "DO sql Changes", "task": "label"}
+{"prompt": "Label: how do I get a global entry interview", "completion": "Global Entry Interview", "task": "label"}
+{"prompt": "Label: how do I add a source code escrow", "completion": "Source Code Escrow", "task": "label"}
+{"prompt": "Label: how do I backup d1", "completion": "D1 Backup Strategy", "task": "label"}
+{"prompt": "Label: what's agents vs models as a sample", "completion": "Sample Agents vs Models", "task": "label"}
+{"prompt": "Label: github include travel prompts", "completion": "Travel Prompts", "task": "label"}
+{"prompt": "Label: how do I include architecture prompts", "completion": "Architecture Prompts", "task": "label"}
+{"prompt": "Label: how do I transfer a domain to cloudflare", "completion": "Cloudflare Domain Transfer", "task": "label"}
+{"prompt": "Label: what's a safe withdrawal rate in retirement", "completion": "Safe Withdrawal Rate", "task": "label"}
+{"prompt": "Label: how do I add a customer key management", "completion": "KMS Add On", "task": "label"}
+{"prompt": "Label: what's production runtime for bros", "completion": "Bros Production Runtime", "task": "label"}
+{"prompt": "Label: what's a good default stickiness", "completion": "Product Stickiness", "task": "label"}
+{"prompt": "Label: what's a good default dso for saas", "completion": "SaaS DSO Target", "task": "label"}
+{"prompt": "Label: how do I get around a 6 hour layover in istanbul", "completion": "Istanbul Layover Plan", "task": "label"}
+{"prompt": "Label: selinux is blocking my nginx on fedora", "completion": "SELinux Nginx Block", "task": "label"}
+{"prompt": "Label: how do I include multi concept prompts", "completion": "Multi Concept Prompts", "task": "label"}
+{"prompt": "Label: how do I label a ruff pre commit setup", "completion": "Ruff Pre Commit Label", "task": "label"}
+{"prompt": "Label: is it cheaper to fly into newark or jfk for a manhattan trip", "completion": "NYC Airport Choice", "task": "label"}
+{"prompt": "Label: how do I keep cooked rice from drying out", "completion": "Cooked Rice Storage", "task": "label"}
+{"prompt": "Label: how do I fail install-ollama if the gguf is missing", "completion": "Missing GGUF Install Fail", "task": "label"}
+{"prompt": "Label: how do I label an event sourcing intro", "completion": "Event Sourcing Label", "task": "label"}
+{"prompt": "Label: the bios update failed and the machine is bricked", "completion": "Failed BIOS Update", "task": "label"}
+{"prompt": "Label: how do I pick a visa for a peering meeting", "completion": "Peering Meeting Visa", "task": "label"}
+{"prompt": "Label: how do I label an oauth redirect bug", "completion": "OAuth Redirect Label", "task": "label"}
+{"prompt": "Label: my webcam needs cheese video effect", "completion": "cheese Video Effect", "task": "label"}
+{"prompt": "Label: should I take the 401k match or pay debt first", "completion": "401k vs Debt", "task": "label"}
+{"prompt": "Label: how do I keep brown sugar from turning into a brick", "completion": "Brown Sugar Storage", "task": "label"}
+{"prompt": "Label: explain mcp servers like I'm new to this", "completion": "MCP Server Basics", "task": "label"}
+{"prompt": "Label: what's a world model versus an llm", "completion": "World Model vs LLM", "task": "label"}
+{"prompt": "Label: how do I find a quiet hotel near a train station", "completion": "Hotel Near Station", "task": "label"}
+{"prompt": "Label: how do I add step up auth for risky actions", "completion": "Step Up Authentication", "task": "label"}
+{"prompt": "Label: how do I version a lora adapter", "completion": "LoRA Adapter Versioning", "task": "label"}
+{"prompt": "Label: how do I keep parsley from turning slime", "completion": "Parsley Storage", "task": "label"}
+{"prompt": "Label: what's a good default expansion from legal review", "completion": "Legal Review Expansion", "task": "label"}
+{"prompt": "Label: what's a good default usage expansion", "completion": "Usage Expansion Rate", "task": "label"}
+{"prompt": "Label: cloudflare workers do sql foreign", "completion": "DO sql Foreign", "task": "label"}
+{"prompt": "Label: the bios secure boot blocks my distro", "completion": "Secure Boot Distro", "task": "label"}
+{"prompt": "Label: how do I pick a visa for a research conference", "completion": "Research Conference Visa", "task": "label"}
+{"prompt": "Label: how do I cover programming and travel in one dataset", "completion": "Broad Domain Coverage", "task": "label"}
+{"prompt": "Label: cloudflare workers cron secrets", "completion": "Workers Cron Secrets", "task": "label"}
+{"prompt": "Label: my webcam needs v4l2loopback for virtual cams", "completion": "v4l2loopback Virtual Cam", "task": "label"}
+{"prompt": "Label: the packaged artifact is models bros q4", "completion": "Packaged Bros GGUF", "task": "label"}
+{"prompt": "Label: github v1 dataset is labels only", "completion": "v1 Labels Only", "task": "label"}
+{"prompt": "Label: cloudflare ai gateway vs calling a provider", "completion": "AI Gateway vs Direct", "task": "label"}
+{"prompt": "Label: what's return only the label", "completion": "Return Only Label", "task": "label"}
+{"prompt": "Label: how do I include llm eval questions", "completion": "LLM Eval Prompts", "task": "label"}
+{"prompt": "Label: hono middleware order is surprising me", "completion": "Hono Middleware Order", "task": "label"}
+{"prompt": "Label: what's a good label for tailwind not applying", "completion": "Tailwind Issue Label", "task": "label"}
+{"prompt": "Label: how do I keep system prompts short for a 135m model", "completion": "Short System Prompts", "task": "label"}
+{"prompt": "Label: how do I add a customer dedicated tenant", "completion": "Dedicated Tenant Add On", "task": "label"}
+{"prompt": "Label: how do I add a customer sla add on", "completion": "SLA Add On", "task": "label"}
+{"prompt": "Label: how do I get a visa for a conference last minute", "completion": "Last Minute Conference Visa", "task": "label"}
+{"prompt": "Label: how do I get tsa precheck", "completion": "TSA Precheck Signup", "task": "label"}
+{"prompt": "Label: what's a good label for a scim question", "completion": "SCIM Label", "task": "label"}
+{"prompt": "Label: cloudflare workers waitUntil", "completion": "Workers waitUntil", "task": "label"}
+{"prompt": "Label: my webcam needs cheese record", "completion": "cheese Record", "task": "label"}
+{"prompt": "Label: how do I keep leftover burgers from drying", "completion": "Leftover Burgers", "task": "label"}
+{"prompt": "Label: cloudflare constellation vs workers ai", "completion": "Constellation vs Workers AI", "task": "label"}
+{"prompt": "Label: the power brick smells like hot plastic", "completion": "Laptop Charger Smell", "task": "label"}
+{"prompt": "Label: how do I add a responsible disclosure page", "completion": "Responsible Disclosure Page", "task": "label"}
+{"prompt": "Label: how do I redact pii from logs", "completion": "Log PII Redaction", "task": "label"}
+{"prompt": "Label: what's a good default expansion from implementation managers", "completion": "IM Expansion", "task": "label"}
+{"prompt": "Label: the laptop nvidia driver failed after a kernel update", "completion": "NVIDIA Driver After Kernel", "task": "label"}
+{"prompt": "Label: how do I rotate AWS access keys without downtime", "completion": "AWS Key Rotation", "task": "label"}
+{"prompt": "Label: what's a process reward model", "completion": "Process Reward Model", "task": "label"}
+{"prompt": "Label: the implicit prompt still maps to a subject", "completion": "Implicit Maps To Subject", "task": "label"}
+{"prompt": "Label: how do I copy q4 into models after quantize", "completion": "Copy Q4 to models", "task": "label"}
+{"prompt": "Label: github required reviewers from code owners", "completion": "CODEOWNERS Reviewers", "task": "label"}
+{"prompt": "Label: what's a good default sql acceptance", "completion": "SQL Acceptance Rate", "task": "label"}
+{"prompt": "Label: how do I use undervolt safely on a 3080 laptop", "completion": "Laptop Undervolt", "task": "label"}
+{"prompt": "Label: how do I enable psi memory pressure logs", "completion": "Linux PSI Memory", "task": "label"}
+{"prompt": "Label: how do I include git prompts", "completion": "Git Prompts", "task": "label"}
+{"prompt": "Label: what's a context window and why did my agent forget", "completion": "Context Window Limits", "task": "label"}
+{"prompt": "Label: how do I keep leftover tikka from drying", "completion": "Leftover Tikka", "task": "label"}
+{"prompt": "Label: can I run d1 locally like production", "completion": "D1 Local Development", "task": "label"}
+{"prompt": "Label: how do I cook dried beans without a long soak", "completion": "No Soak Beans", "task": "label"}
+{"prompt": "Label: how do I include small model training questions", "completion": "Small Model Training", "task": "label"}
+{"prompt": "Label: what's report to none", "completion": "Disable Report To", "task": "label"}
+{"prompt": "Label: what's peft in one sentence", "completion": "PEFT One Sentence", "task": "label"}
+{"prompt": "Label: how do I use ss to find a listening port", "completion": "ss Listening Ports", "task": "label"}
+{"prompt": "Label: how do I rotate a leaked stripe key", "completion": "Stripe Key Rotation", "task": "label"}
+{"prompt": "Label: jwt vs session cookies for a b2b dashboard", "completion": "JWT vs Sessions", "task": "label"}
+{"prompt": "Label: github include ollama llama cpp", "completion": "Ollama llamacpp Prompts", "task": "label"}
+{"prompt": "Label: how do I add a customer bring your own key", "completion": "BYOK Add On", "task": "label"}
+{"prompt": "Label: my webcam needs ffmpeg -f v4l2 -i /dev/video0", "completion": "ffmpeg video0", "task": "label"}
+{"prompt": "Label: how do I merge then convert to gguf", "completion": "Merge Then GGUF", "task": "label"}
+{"prompt": "Label: lora vs full finetune for a 135m model", "completion": "LoRA vs Full Finetune", "task": "label"}
+{"prompt": "Label: what's qlora and do I need it for 135m", "completion": "QLoRA for Small Models", "task": "label"}
+{"prompt": "Label: what's a good label for mcp tools versus resources", "completion": "MCP Tools Resources", "task": "label"}
+{"prompt": "Label: how do I add a customer sunset notice", "completion": "Product Sunset Notice", "task": "label"}
+{"prompt": "Label: github include travel packing and visas", "completion": "Travel Visa Prompts", "task": "label"}
+{"prompt": "Label: how do I add a data map of systems", "completion": "Systems Data Map", "task": "label"}
+{"prompt": "Label: how do I add a customer scim add on", "completion": "SCIM Add On", "task": "label"}
+{"prompt": "Label: what's a good default time to close", "completion": "Time to Close", "task": "label"}
+{"prompt": "Label: best vegetarian protein for meal prep", "completion": "Vegetarian Meal Prep", "task": "label"}
+{"prompt": "Label: what's lora r 16 alpha 32", "completion": "LoRA r16 alpha32", "task": "label"}
+{"prompt": "Label: how do I pick a visa for an adoption trip", "completion": "Adoption Trip Visa", "task": "label"}
+{"prompt": "Label: cloudflare workers caches default", "completion": "Workers Default Cache", "task": "label"}
+{"prompt": "Label: cloudflare workers connect", "completion": "Workers TCP Connect", "task": "label"}
+{"prompt": "Label: what's a good label for an agent retry loop", "completion": "Agent Retry Label", "task": "label"}
+{"prompt": "Label: help me name this grocery list app without it sounding generic", "completion": "App Naming Help", "task": "label"}
+{"prompt": "Label: docker buildx multi arch image for arm64", "completion": "Docker Multiarch Build", "task": "label"}
+{"prompt": "Label: what's a good default expansion from modules", "completion": "Module Expansion", "task": "label"}
+{"prompt": "Label: cloudflare workers do sql view", "completion": "DO sql View", "task": "label"}
+{"prompt": "Label: how do I keep leftover tahini from separating", "completion": "Leftover Tahini", "task": "label"}
+{"prompt": "Label: what's a vector clock in distributed systems", "completion": "Vector Clock Basics", "task": "label"}
+{"prompt": "Label: how do I label a hanging vacuum", "completion": "Hanging Vacuum Label", "task": "label"}
+{"prompt": "Label: remind me how compound interest works in a high yield savings account", "completion": "Compound Interest Basics", "task": "label"}
+{"prompt": "Label: what's docker networking as a sample label", "completion": "Sample Docker Networking", "task": "label"}
+{"prompt": "Label: how do I set up mtls between services", "completion": "Service mTLS Setup", "task": "label"}
+{"prompt": "Label: how do I make miso soup that isn't sad", "completion": "Better Miso Soup", "task": "label"}
+{"prompt": "Label: how do I use systemd-run for a one shot", "completion": "systemd run One Shot", "task": "label"}
+{"prompt": "Label: github issue forms vs a linear intake", "completion": "Issue Forms vs Linear", "task": "label"}
+{"prompt": "Label: how do I add a subprocessors exhibit", "completion": "Subprocessors Exhibit", "task": "label"}
+{"prompt": "Label: what's a good default collection period", "completion": "AR Collection Period", "task": "label"}
+{"prompt": "Label: what's model init kwargs dtype", "completion": "Model Init Dtype", "task": "label"}
+{"prompt": "Label: the laptop mic is picking up the fans", "completion": "Mic Fan Noise", "task": "label"}
+{"prompt": "Label: how do I set up dkim for a domain", "completion": "DKIM Domain Setup", "task": "label"}
+{"prompt": "Label: what's a 529 versus a custodial account", "completion": "529 vs Custodial", "task": "label"}
+{"prompt": "Label: the database prompt names the engine", "completion": "Database Engine In Label", "task": "label"}
+{"prompt": "Label: my displayport to hdmi adapter has no audio", "completion": "DisplayPort HDMI Audio", "task": "label"}
+{"prompt": "Label: how do I add an incident comms template", "completion": "Incident Comms Template", "task": "label"}
+{"prompt": "Label: what's a good default expansion from uptime sla", "completion": "Uptime SLA Expansion", "task": "label"}
+{"prompt": "Label: what's top k versus top p", "completion": "Top K vs Top P", "task": "label"}
+{"prompt": "Label: what's a good label for arr versus mrr", "completion": "ARR vs MRR Label", "task": "label"}
+{"prompt": "Label: github include business and saas metrics", "completion": "SaaS Metrics Prompts", "task": "label"}
+{"prompt": "Label: best way to pack liquids through tsa", "completion": "TSA Liquids Packing", "task": "label"}
+{"prompt": "Label: how do I keep leftover takoyaki", "completion": "Leftover Takoyaki", "task": "label"}
+{"prompt": "Label: what's peft task type causal lm", "completion": "PEFT Causal LM", "task": "label"}
+{"prompt": "Label: how do I fall back to q4 0 under 100mb", "completion": "Q4 Size Fallback", "task": "label"}
+{"prompt": "Label: how do I use tmux for a long train job", "completion": "tmux Training Job", "task": "label"}
+{"prompt": "Label: my raspberry pi won't boot after a power cut", "completion": "Raspberry Pi Boot", "task": "label"}
+{"prompt": "Label: how do I add a customer sla redline", "completion": "SLA Redline", "task": "label"}
+{"prompt": "Label: cloudflare workers do sql lastInsertRowId", "completion": "SQL Last Insert Row", "task": "label"}
+{"prompt": "Label: what's a good default sales cycle length", "completion": "Sales Cycle Length", "task": "label"}
+{"prompt": "Label: how do I implement pkce for oauth", "completion": "OAuth PKCE Setup", "task": "label"}
+{"prompt": "Label: how do I add a dsr workflow for gdpr", "completion": "GDPR Data Subject Request", "task": "label"}
+{"prompt": "Label: how do I keep ginger from going woody", "completion": "Ginger Storage", "task": "label"}
+{"prompt": "Label: how do I not swap in a larger base model", "completion": "Keep 135M Base", "task": "label"}
+{"prompt": "Label: how do I self host ollama on linux", "completion": "Ollama Linux Setup", "task": "label"}
+{"prompt": "Label: how do I keep leftover pizza bread", "completion": "Leftover Pizza Bread", "task": "label"}
+{"prompt": "Label: how do I include troubleshooting prompts", "completion": "Troubleshooting Prompts", "task": "label"}
+{"prompt": "Label: how do I drop caches on linux safely", "completion": "Linux Drop Caches", "task": "label"}
+{"prompt": "Label: how do I keep leftover mashed potatoes decent", "completion": "Leftover Mashed Potatoes", "task": "label"}
+{"prompt": "Label: cloudflare durable object alarms", "completion": "Durable Object Alarms", "task": "label"}
+{"prompt": "Label: what's tool choice auto vs required", "completion": "LLM Tool Choice", "task": "label"}
+{"prompt": "Label: the laptop iGPU drives the laptop screen only", "completion": "iGPU Internal Display", "task": "label"}
+{"prompt": "Label: how do I keep packing off for short labels", "completion": "SFT Packing Off", "task": "label"}
+{"prompt": "Label: how do I pick a visa for a supplier visit", "completion": "Supplier Visit Visa", "task": "label"}
+{"prompt": "Label: how do I label step up auth", "completion": "Step Up Auth Label", "task": "label"}
+{"prompt": "Label: my microsd adapter is flaky in a camera", "completion": "MicroSD Adapter Flake", "task": "label"}
+{"prompt": "Label: how do I rent an apartment with no us credit", "completion": "Rent Without Credit", "task": "label"}
+{"prompt": "Label: github merge conflict in a lockfile", "completion": "Lockfile Merge Conflict", "task": "label"}
+{"prompt": "Label: how do I label rest versus grpc", "completion": "REST vs gRPC Label", "task": "label"}
+{"prompt": "Label: how do I use numactl on a two socket box", "completion": "numactl Two Socket", "task": "label"}
+{"prompt": "Label: how do I add a customer success add on", "completion": "Customer Success Add On", "task": "label"}
+{"prompt": "Label: github include oauth oidc saml", "completion": "OAuth OIDC SAML", "task": "label"}
+{"prompt": "Label: strapi webhook not firing after publish", "completion": "Strapi Webhook Failure", "task": "label"}
+{"prompt": "Label: the laptop egpu is flaky on thunderbolt", "completion": "eGPU Thunderbolt Flake", "task": "label"}
+{"prompt": "Label: github autolink to linear tickets", "completion": "GitHub Linear Autolink", "task": "label"}
+{"prompt": "Label: my webcam needs v4l2-ctl formats", "completion": "v4l2 ctl Formats", "task": "label"}
+{"prompt": "Label: workers cron trigger vs queue consumer", "completion": "Cron vs Queue Workers", "task": "label"}
+{"prompt": "Label: how do I log structured json from a python worker", "completion": "Python JSON Logging", "task": "label"}
+{"prompt": "Label: what's teacher forcing in sft", "completion": "Teacher Forcing", "task": "label"}
+{"prompt": "Label: how do I keep leftover pizza edible next day", "completion": "Leftover Pizza", "task": "label"}
+{"prompt": "Label: how do I use nvidia-smi during training", "completion": "nvidia smi During Training", "task": "label"}
+{"prompt": "Label: github no qlora for 135m", "completion": "No QLoRA Needed", "task": "label"}
+{"prompt": "Label: github deploy keys vs a machine user", "completion": "Deploy Keys vs Machine User", "task": "label"}
+{"prompt": "Label: what's device map auto on cuda", "completion": "Device Map Auto", "task": "label"}
+{"prompt": "Label: how do I keep leftover doria", "completion": "Leftover Doria", "task": "label"}
+{"prompt": "Label: the office vpn blocks docker hub", "completion": "VPN Blocks Docker Hub", "task": "label"}
+{"prompt": "Label: apparmor vs selinux which should I learn", "completion": "AppArmor vs SELinux", "task": "label"}
+{"prompt": "Label: how do I keep leftover curry bread", "completion": "Leftover Curry Bread", "task": "label"}
+{"prompt": "Label: github wiki vs a docs site", "completion": "Wiki vs Docs Site", "task": "label"}
+{"prompt": "Label: what's a good label for leftover rice safety", "completion": "Leftover Rice Label", "task": "label"}
+{"prompt": "Label: what's a good label for cache stampede", "completion": "Cache Stampede Label", "task": "label"}
+{"prompt": "Label: why is my spa hydrating twice in nuxt", "completion": "Nuxt Double Hydration", "task": "label"}
+{"prompt": "Label: how do I keep leftover fries from going limp", "completion": "Leftover Fries", "task": "label"}
+{"prompt": "Label: how do I label playwright in actions", "completion": "Playwright Actions Label", "task": "label"}
+{"prompt": "Label: what's a good default activation time", "completion": "Activation Time Target", "task": "label"}
+{"prompt": "Label: my webcam needs mplayer tv://", "completion": "mplayer TV Capture", "task": "label"}
+{"prompt": "Label: how do I pick a visa for a working holiday", "completion": "Working Holiday Visa", "task": "label"}
+{"prompt": "Label: what's a good default expansion from byok", "completion": "BYOK Expansion", "task": "label"}
+{"prompt": "Label: can an agent call multiple mcp servers in one turn", "completion": "Agents Multiple MCP", "task": "label"}
+{"prompt": "Label: how do I use nsenter into a container", "completion": "nsenter Container", "task": "label"}
+{"prompt": "Label: how do I add passkeys to a web app", "completion": "WebAuthn Passkey Setup", "task": "label"}
+{"prompt": "Label: how do I keep leftover karaage", "completion": "Leftover Karaage", "task": "label"}
+{"prompt": "Label: cloudflare workers observability logs", "completion": "Workers Observability", "task": "label"}
+{"prompt": "Label: how do I keep leftover soup safe three days", "completion": "Leftover Soup Safety", "task": "label"}
+{"prompt": "Label: how do I pick a visa for a road trip", "completion": "Road Trip Visa", "task": "label"}
+{"prompt": "Label: cloudflare workers sqlite in durable objects", "completion": "DO SQLite", "task": "label"}
+{"prompt": "Label: github include cloudflare prompts", "completion": "Cloudflare Prompts", "task": "label"}
+{"prompt": "Label: what's a mixture of experts in plain english", "completion": "Mixture of Experts", "task": "label"}
+{"prompt": "Label: github packages vs npmjs for private pkgs", "completion": "GitHub Packages vs npm", "task": "label"}
+{"prompt": "Label: how do I label a postmortem question", "completion": "Postmortem Label", "task": "label"}
+{"prompt": "Label: how do I include software architecture prompts", "completion": "Software Architecture Prompts", "task": "label"}
+{"prompt": "Label: my zfs pool is degraded one disk", "completion": "ZFS Degraded Pool", "task": "label"}
+{"prompt": "Label: my webcam needs extra lighting that looks awful", "completion": "Webcam Lighting", "task": "label"}
+{"prompt": "Label: how do I pick a visa for a residency program", "completion": "Residency Program Visa", "task": "label"}
+{"prompt": "Label: github large file blocked at 100mb", "completion": "GitHub 100MB Limit", "task": "label"}
+{"prompt": "Label: what's a good default logo churn monthly", "completion": "Monthly Logo Churn", "task": "label"}
+{"prompt": "Label: my webcam ir is disabled in the bios", "completion": "BIOS IR Camera", "task": "label"}
+{"prompt": "Label: what's an eos token in generation", "completion": "EOS Token Generation", "task": "label"}
+{"prompt": "Label: how do I get a visa photo that they accept", "completion": "Visa Photo Requirements", "task": "label"}
+{"prompt": "Label: how do I pick a visa for a pilgrimage", "completion": "Pilgrimage Visa", "task": "label"}
+{"prompt": "Label: how do I keep leftover sushi for lunch tomorrow", "completion": "Leftover Sushi", "task": "label"}
+{"prompt": "Label: how do I label an nftables question", "completion": "nftables Label", "task": "label"}
+{"prompt": "Label: how do I add a customer seat add on", "completion": "Seat Add On", "task": "label"}
+{"prompt": "Label: what's max new tokens 16", "completion": "Max New Tokens", "task": "label"}
+{"prompt": "Label: agent retries the same failing tool forever", "completion": "Agent Retry Loop", "task": "label"}
+{"prompt": "Label: how do I keep herbs from the store alive a week", "completion": "Store Herb Longevity", "task": "label"}
+{"prompt": "Label: cloudflare workers do sql trigger", "completion": "DO sql Trigger", "task": "label"}
+{"prompt": "Label: what's a good default expansion from soc2", "completion": "SOC2 Expansion", "task": "label"}
+{"prompt": "Label: how do I pick a visa for a humanitarian trip", "completion": "Humanitarian Trip Visa", "task": "label"}
+{"prompt": "Label: explain workers kv like I know redis already", "completion": "KV for Redis Users", "task": "label"}
+{"prompt": "Label: my webcam privacy shutter is stuck", "completion": "Webcam Shutter Stuck", "task": "label"}
+{"prompt": "Label: how do I ignore training adapters in git", "completion": "Gitignore Training Output", "task": "label"}
+{"prompt": "Label: the laptop 16gb vram dwarfs a 135m adapter", "completion": "16GB vs 135M", "task": "label"}
+{"prompt": "Label: how do I read a cap table", "completion": "Cap Table Basics", "task": "label"}
+{"prompt": "Label: how do I pick a visa for an oil platform visit", "completion": "Oil Platform Visa", "task": "label"}
+{"prompt": "Label: how do I include database restore questions", "completion": "Database Restore", "task": "label"}
+{"prompt": "Label: what's a good default logo expansion quarterly", "completion": "Quarterly Logo Expansion", "task": "label"}
+{"prompt": "Label: How do I configure a Cloudflare tunnel with Docker?", "completion": "Cloudflare Docker Setup", "task": "label"}
+{"prompt": "Label: what's a good label for prompt evals", "completion": "Prompt Eval Label", "task": "label"}
+{"prompt": "Label: how do I add a cookie inventory", "completion": "Cookie Inventory", "task": "label"}
+{"prompt": "Label: what's a good label for a zfs degraded pool", "completion": "ZFS Pool Label", "task": "label"}
+{"prompt": "Label: what's dilution in a seed round", "completion": "Seed Round Dilution", "task": "label"}
+{"prompt": "Label: what's a good default no show rate", "completion": "No Show Rate", "task": "label"}
+{"prompt": "Label: what's a good default expansion rate", "completion": "Expansion Rate Target", "task": "label"}
+{"prompt": "Label: how do I include networking wifi questions", "completion": "Wifi Networking Prompts", "task": "label"}
+{"prompt": "Label: cloudflare workers colo routing", "completion": "Workers Colo Routing", "task": "label"}
+{"prompt": "Label: how do I version a public rest api", "completion": "REST API Versioning", "task": "label"}
+{"prompt": "Label: my webcam privacy led is too bright at night", "completion": "Privacy LED Bright", "task": "label"}
+{"prompt": "Label: cloudflare workers do sql cte", "completion": "DO sql CTE", "task": "label"}
+{"prompt": "Label: how do I add retention labels to tickets", "completion": "Ticket Retention Labels", "task": "label"}
+{"prompt": "Label: how do I pick a visa for a standards meeting", "completion": "Standards Meeting Visa", "task": "label"}
+{"prompt": "Label: github include agent prompts", "completion": "Agent Prompts", "task": "label"}
+{"prompt": "Label: how do I run bros after install", "completion": "ollama run bros", "task": "label"}
+{"prompt": "Label: how do I keep leftover pasta from welding together", "completion": "Leftover Pasta", "task": "label"}
+{"prompt": "Label: how do I pick a visa for a workshop", "completion": "Workshop Visa", "task": "label"}
+{"prompt": "Label: what's the difference between gross margin and markup", "completion": "Margin vs Markup", "task": "label"}
+{"prompt": "Label: how do I add a customer impersonation audit", "completion": "Impersonation Audit", "task": "label"}
+{"prompt": "Label: can mcp expose a database safely", "completion": "MCP Database Safety", "task": "label"}
+{"prompt": "Label: how do I use cloudflare r2 with a custom domain", "completion": "R2 Custom Domain", "task": "label"}
+{"prompt": "Label: should I incorporate as an llc for freelance work", "completion": "Freelance LLC Decision", "task": "label"}
+{"prompt": "Label: what's a good default expansion from support", "completion": "Support Expansion", "task": "label"}
+{"prompt": "Label: how do I add a task field to jsonl", "completion": "JSONL task Field", "task": "label"}
+{"prompt": "Label: what's a good default savings rate", "completion": "Default Savings Rate", "task": "label"}
+{"prompt": "Label: how do I expose a local mcp server to claude", "completion": "Local MCP Exposure", "task": "label"}
+{"prompt": "Label: how do I get a refundable fare without paying 3x", "completion": "Refundable Fare Options", "task": "label"}
+{"prompt": "Label: what's a local ollama api for the bros app", "completion": "Local Ollama API", "task": "label"}
+{"prompt": "Label: how do I keep leftover salad from wilting", "completion": "Leftover Salad", "task": "label"}
+{"prompt": "Label: how do I add a customer sla credit math", "completion": "SLA Credit Math", "task": "label"}
+{"prompt": "Label: cloudflare r2 multipart upload", "completion": "R2 Multipart Upload", "task": "label"}
+{"prompt": "Label: nuxt content vs a headless cms", "completion": "Nuxt Content vs CMS", "task": "label"}
+{"prompt": "Label: how do I roast vegetables so they actually brown", "completion": "Roasting Vegetables Tips", "task": "label"}
+{"prompt": "Label: the laptop external monitor flickers on usb c", "completion": "USBC Monitor Flicker", "task": "label"}
+{"prompt": "Label: my ipv6 is broken but ipv4 works", "completion": "IPv6 Connectivity Issue", "task": "label"}
+{"prompt": "Label: how do I pick a visa for a reconstruction trip", "completion": "Reconstruction Trip Visa", "task": "label"}
+{"prompt": "Label: how do I pick a visa for an investor meeting", "completion": "Investor Meeting Visa", "task": "label"}
+{"prompt": "Label: how do I pick a visa for a retreat", "completion": "Retreat Visa", "task": "label"}
+{"prompt": "Label: what's gradient accumulation 2", "completion": "Gradient Accumulation 2", "task": "label"}
+{"prompt": "Label: my webcam needs cheese saturation", "completion": "cheese Saturation", "task": "label"}
+{"prompt": "Label: cloudflare workers actor model", "completion": "Workers Actor Model", "task": "label"}
+{"prompt": "Label: what's a good label for durable objects", "completion": "Durable Objects Label", "task": "label"}
+{"prompt": "Label: how do I design a public status page", "completion": "Status Page Design", "task": "label"}
+{"prompt": "Label: cloudflare workers wrangler whoami", "completion": "wrangler whoami", "task": "label"}
+{"prompt": "Label: how do I print prompt expected predicted", "completion": "Eval Print Format", "task": "label"}
+{"prompt": "Label: how do I train on cpu if cuda is missing", "completion": "CPU Training Fallback", "task": "label"}
+{"prompt": "Label: how do I add a customer rate limit dashboard", "completion": "Rate Limit Dashboard", "task": "label"}
+{"prompt": "Label: how do I label a 401k versus debt question", "completion": "401k vs Debt Label", "task": "label"}
+{"prompt": "Label: how do I package a gguf with ollama", "completion": "Ollama GGUF Package", "task": "label"}
+{"prompt": "Label: what's distillation for small models", "completion": "Model Distillation", "task": "label"}
+{"prompt": "Label: How do I configure Docker networking?", "completion": "Docker Networking", "task": "label"}
+{"prompt": "Label: how do I pick a visa for remote work", "completion": "Remote Work Visa", "task": "label"}
+{"prompt": "Label: what's a tokenizer special token", "completion": "Special Tokens", "task": "label"}
+{"prompt": "Label: how do I enable hugepages for postgres", "completion": "Postgres Hugepages", "task": "label"}
+{"prompt": "Label: what's a good default free to paid", "completion": "Free to Paid Rate", "task": "label"}
+{"prompt": "Label: what's a good default seat expansion", "completion": "Seat Expansion Rate", "task": "label"}
+{"prompt": "Label: hey my wrangler deploy says binding not found what now", "completion": "Wrangler Binding Missing", "task": "label"}
+{"prompt": "Label: how do I add a customer apology template", "completion": "Customer Apology Template", "task": "label"}
+{"prompt": "Label: the laptop 3080 is plenty for 135m lora", "completion": "3080 Enough For 135M", "task": "label"}
+{"prompt": "Label: how do I keep leftover edamame", "completion": "Leftover Edamame", "task": "label"}
+{"prompt": "Label: my webcam needs pipewire camera portal", "completion": "Pipewire Camera Portal", "task": "label"}
+{"prompt": "Label: what's a good default logo retention", "completion": "Logo Retention Target", "task": "label"}
+{"prompt": "Label: what's a burn multiple for a saas", "completion": "SaaS Burn Multiple", "task": "label"}
+{"prompt": "Label: how do I add a customer onboarding add on", "completion": "Onboarding Add On", "task": "label"}
+{"prompt": "Label: how do I add a customer questionnaire response", "completion": "Security Questionnaire", "task": "label"}
+{"prompt": "Label: how do I keep a labeling model from adding quotes", "completion": "Stop Label Quotes", "task": "label"}
+{"prompt": "Label: how do I pick a visa for a teaching gig", "completion": "Teaching Gig Visa", "task": "label"}
+{"prompt": "Label: how do I use ionice for a backup job", "completion": "ionice Backup Job", "task": "label"}
+{"prompt": "Label: how do I keep leftover gratin", "completion": "Leftover Gratin", "task": "label"}
+{"prompt": "Label: my usb c cable only charges not data", "completion": "USB Charge Only Cable", "task": "label"}
+{"prompt": "Label: what's a good default win/loss reason capture", "completion": "Win Loss Capture", "task": "label"}
+{"prompt": "Label: should I keep a taxable brokerage too", "completion": "Taxable Brokerage Role", "task": "label"}
+{"prompt": "Label: how do I add a change of control clause", "completion": "Change of Control Clause", "task": "label"}
+{"prompt": "Label: cloudflare workers do sql exec", "completion": "Durable Object SQL Exec", "task": "label"}
+{"prompt": "Label: how do I add a customer incident mail", "completion": "Customer Incident Mail", "task": "label"}
+{"prompt": "Label: how do I write a postmortem without blame", "completion": "Blameless Postmortem", "task": "label"}
+{"prompt": "Label: how do I pick a visa for a keynote", "completion": "Keynote Visa", "task": "label"}
+{"prompt": "Label: cloudflare workers passThroughOnException", "completion": "Pass Through On Exception", "task": "label"}
+{"prompt": "Label: how do I add a customer pentest report share", "completion": "Pentest Report Share", "task": "label"}
+{"prompt": "Label: how do I include mcp versus tool questions", "completion": "MCP vs Tools", "task": "label"}
+{"prompt": "Label: how do I add a retention schedule", "completion": "Data Retention Schedule", "task": "label"}
+{"prompt": "Label: the tiny model prioritizes format over chat skill", "completion": "Format Over Chat", "task": "label"}
+{"prompt": "Label: how do I use coredumpctl after a crash", "completion": "coredumpctl After Crash", "task": "label"}
+{"prompt": "Label: how do I make a pan sauce after a steak", "completion": "Steak Pan Sauce", "task": "label"}
+{"prompt": "Label: cloudflare workers do sql index", "completion": "DO sql Index", "task": "label"}
+{"prompt": "Label: how do I keep leftover soup from exploding in the microwave", "completion": "Microwave Soup Cover", "task": "label"}
+{"prompt": "Label: how do I include saas prompts", "completion": "SaaS Prompts", "task": "label"}
+{"prompt": "Label: how do I include food prompts", "completion": "Food Prompts", "task": "label"}
+{"prompt": "Label: cloudflare workers request limits", "completion": "Workers Request Limits", "task": "label"}
+{"prompt": "Label: how do I keep leftover tempura from going soggy", "completion": "Leftover Tempura", "task": "label"}
+{"prompt": "Label: my webcam autoexposure blows out a window", "completion": "Webcam Autoexposure", "task": "label"}
+{"prompt": "Label: my webcam has a rolling tear on wayland", "completion": "Wayland Webcam Tear", "task": "label"}
+{"prompt": "Label: how do I include web styling bugs", "completion": "Web Styling Bugs", "task": "label"}
+{"prompt": "Label: my webcam needs v4l2loopback chrome", "completion": "Chrome Virtual Cam", "task": "label"}
+{"prompt": "Label: how do I label a keyboard double type", "completion": "Keyboard Double Type", "task": "label"}
+{"prompt": "Label: how do I include business prompts", "completion": "Business Prompts", "task": "label"}
+{"prompt": "Label: how do I strace a hanging process", "completion": "strace Hanging Process", "task": "label"}
+{"prompt": "Label: how do I tip in japan", "completion": "Tipping In Japan", "task": "label"}
+{"prompt": "Label: how do I pick a visa for a sports event", "completion": "Sports Event Visa", "task": "label"}
+{"prompt": "Label: cloudflare vectorize vs an external vector db", "completion": "Vectorize vs External DB", "task": "label"}
+{"prompt": "Label: how do I avoid markdown in labels", "completion": "No Markdown Labels", "task": "label"}
+{"prompt": "Label: how do I pick a visa for a ferry", "completion": "Ferry Visa", "task": "label"}
+{"prompt": "Label: what's a good default logo expansion", "completion": "Logo Expansion Rate", "task": "label"}
+{"prompt": "Label: the bios boot order ignores my usb", "completion": "BIOS USB Boot Order", "task": "label"}
+{"prompt": "Label: what's a good default expansion from storage", "completion": "Storage Expansion", "task": "label"}
+{"prompt": "Label: what's output dir adapter", "completion": "Adapter Output Directory", "task": "label"}
+{"prompt": "Label: cloudflare workers subrequest loops", "completion": "Workers Subrequest Loops", "task": "label"}
+{"prompt": "Label: how do I make a vinaigrette that emulsifies", "completion": "Vinaigrette Emulsion", "task": "label"}
+{"prompt": "Label: what's left padding in a causal lm", "completion": "Causal LM Padding", "task": "label"}
+{"prompt": "Label: how do I keep leftover stew for two days", "completion": "Leftover Stew", "task": "label"}
+{"prompt": "Label: is almond milk ok in a bechamel", "completion": "Almond Milk Bechamel", "task": "label"}
+{"prompt": "Label: how do I label a postgres connection issue", "completion": "Sample Postgres Issue", "task": "label"}
+{"prompt": "Label: how do I include linux systemd prompts", "completion": "Systemd Prompts", "task": "label"}
+{"prompt": "Label: cloudflare workers isolate model", "completion": "Workers Isolate Model", "task": "label"}
+{"prompt": "Label: nuxt server routes vs workers entry", "completion": "Nuxt vs Workers Routes", "task": "label"}
+{"prompt": "Label: how do I pack camera gear for a flight", "completion": "Flying With Camera Gear", "task": "label"}
+{"prompt": "Label: cloudflare workers do alarms retries", "completion": "DO Alarm Retries", "task": "label"}
+{"prompt": "Label: what's the difference between rag and fine tuning", "completion": "RAG vs Fine Tuning", "task": "label"}
+{"prompt": "Label: what's a verifier model", "completion": "Verifier Model Basics", "task": "label"}
+{"prompt": "Label: how do I train bros on conversational prompt completion", "completion": "Conversational SFT Format", "task": "label"}
+{"prompt": "Label: how do I keep leftover sauce from skinning", "completion": "Leftover Sauce Skin", "task": "label"}
+{"prompt": "Label: how do I pick travel insurance for a long trip", "completion": "Travel Insurance Pick", "task": "label"}
+{"prompt": "Label: how do I keep the packaged gguf in models", "completion": "Commit Packaged GGUF", "task": "label"}
+{"prompt": "Label: how do I pick a visa for a family reunion", "completion": "Family Reunion Visa", "task": "label"}
+{"prompt": "Label: how do I mix old labeling data into a new task", "completion": "Mix Replay Data", "task": "label"}
+{"prompt": "Label: how do I pick a visa for an open source summit", "completion": "Open Source Summit Visa", "task": "label"}
+{"prompt": "Label: what's a good default inbound vs outbound mix", "completion": "Inbound vs Outbound", "task": "label"}
+{"prompt": "Label: iptables vs nftables in 2026", "completion": "iptables vs nftables", "task": "label"}
+{"prompt": "Label: what's a good label for secret rotation in k8s", "completion": "K8s Secret Rotation", "task": "label"}
+{"prompt": "Label: how do I debug nftables counters", "completion": "nftables Counter Debug", "task": "label"}
+{"prompt": "Label: the bios virtualization toggle is greyed out", "completion": "BIOS Virtualization Grey", "task": "label"}
+{"prompt": "Label: how do I chroot into a broken ubuntu", "completion": "Ubuntu Chroot Recovery", "task": "label"}
+{"prompt": "Label: how do I pick a visa for a sports tournament", "completion": "Sports Tournament Visa", "task": "label"}
+{"prompt": "Label: github actions failing on pnpm install cache", "completion": "GitHub Actions Cache", "task": "label"}
+{"prompt": "Label: how do I include git collaboration questions", "completion": "Git Collaboration", "task": "label"}
+{"prompt": "Label: how do I design a tenancy model for b2b saas", "completion": "B2B Tenancy Model", "task": "label"}
+{"prompt": "Label: what's ollama model name bros", "completion": "Ollama Name Bros", "task": "label"}
+{"prompt": "Label: how do I include shopping prompts", "completion": "Shopping Prompts", "task": "label"}
+{"prompt": "Label: how do I install bros into ollama from git", "completion": "Bros Ollama Git Install", "task": "label"}
+{"prompt": "Label: what's quantization aware training", "completion": "Quantization Aware Training", "task": "label"}
+{"prompt": "Label: how do I include productivity meeting questions", "completion": "Meeting Productivity", "task": "label"}
+{"prompt": "Label: cloudflare workers do id from name", "completion": "Durable Object From Name", "task": "label"}
+{"prompt": "Label: what's an embedding model vs a chat model", "completion": "Embedding vs Chat Model", "task": "label"}
+{"prompt": "Label: my thunderbolt dock disconnects when I close the lid", "completion": "Dock Lid Disconnect", "task": "label"}
+{"prompt": "Label: cloudflare workers do storage get", "completion": "Durable Object Storage Get", "task": "label"}
+{"prompt": "Label: how do I pick a visa for a factory audit", "completion": "Factory Audit Visa", "task": "label"}
+{"prompt": "Label: how do I make a simple dashi", "completion": "Simple Dashi", "task": "label"}
+{"prompt": "Label: how do I include hardware laptop questions", "completion": "Laptop Hardware Prompts", "task": "label"}
+{"prompt": "Label: how do I add a severity rubric", "completion": "Incident Severity Rubric", "task": "label"}
+{"prompt": "Label: how do I save merged under output merged", "completion": "Merged Output Directory", "task": "label"}
+{"prompt": "Label: how do I label hyperdrive to neon", "completion": "Hyperdrive Neon Label", "task": "label"}
+{"prompt": "Label: what's speculative decoding", "completion": "Speculative Decoding", "task": "label"}
+{"prompt": "Label: how do I keep a small model from rambling", "completion": "Stop Model Rambling", "task": "label"}
+{"prompt": "Label: the dataset must not repeat the same prompt", "completion": "No Repeated Prompts", "task": "label"}
+{"prompt": "Label: how do I keep leftover enchiladas from a soggy tortilla", "completion": "Leftover Enchiladas", "task": "label"}
+{"prompt": "Label: cloudflare workers do storage put", "completion": "Durable Object Storage Put", "task": "label"}
+{"prompt": "Label: how do I keep leftover cream pan", "completion": "Leftover Cream Pan", "task": "label"}
+{"prompt": "Label: what's a good default expansion mrr mix", "completion": "Expansion MRR Mix", "task": "label"}
+{"prompt": "Label: what's a good default sales accepted lead rate", "completion": "SAL Rate", "task": "label"}
+{"prompt": "Label: my webcam needs snapshot via gphoto2", "completion": "gphoto2 Snapshot", "task": "label"}
+{"prompt": "Label: how do I include typos in the training prompts", "completion": "Typos In Prompts", "task": "label"}
+{"prompt": "Label: how do I detect n plus one in prisma", "completion": "Prisma N Plus One", "task": "label"}
+{"prompt": "Label: how do I write an openapi spec for this endpoint", "completion": "OpenAPI Spec Writing", "task": "label"}
+{"prompt": "Label: how do I use nice and taskset together", "completion": "nice and taskset", "task": "label"}
+{"prompt": "Label: how do I enable bbr congestion control", "completion": "Linux BBR Setup", "task": "label"}
+{"prompt": "Label: how do I include finance prompts", "completion": "Finance Prompts", "task": "label"}
+{"prompt": "Label: how do I keep leftover guacamole green", "completion": "Leftover Guacamole", "task": "label"}
+{"prompt": "Label: journald logs eating disk how do I cap them", "completion": "Journald Disk Cap", "task": "label"}
+{"prompt": "Label: how do I keep leftover coconut milk curry", "completion": "Leftover Coconut Curry", "task": "label"}
+{"prompt": "Label: workers ai vs a local ollama box", "completion": "Workers AI vs Ollama", "task": "label"}
+{"prompt": "Label: cloudflare cache everything is serving stale html", "completion": "Cloudflare Stale Cache", "task": "label"}
+{"prompt": "Label: what's gradient checkpointing", "completion": "Gradient Checkpointing", "task": "label"}
+{"prompt": "Label: how do I send Label plus the first user message", "completion": "App Label Prompt", "task": "label"}
+{"prompt": "Label: how do I keep train val test from leaking", "completion": "Prevent Split Leakage", "task": "label"}
+{"prompt": "Label: what's a good default trial conversion", "completion": "Trial Conversion Rate", "task": "label"}
+{"prompt": "Label: my webcam needs cheese -f jpeg", "completion": "cheese JPEG Capture", "task": "label"}
+{"prompt": "Label: how do I get a visa on arrival", "completion": "Visa On Arrival", "task": "label"}
+{"prompt": "Label: how do I add a custom domain on cloudflare pages", "completion": "Pages Custom Domain", "task": "label"}
+{"prompt": "Label: how do I eval on the validation split each epoch", "completion": "Epoch Validation Eval", "task": "label"}
+{"prompt": "Label: how do I pick a visa for a hacker camp", "completion": "Hacker Camp Visa", "task": "label"}
+{"prompt": "Label: cloudflare workers source maps", "completion": "Workers Source Maps", "task": "label"}
+{"prompt": "Label: how do I label a net worth tracking question", "completion": "Net Worth Label", "task": "label"}
+{"prompt": "Label: workers smart placement vs a single region", "completion": "Smart Placement Regions", "task": "label"}
+{"prompt": "Label: postgres sequence is out of sync after a restore", "completion": "Postgres Sequence Repair", "task": "label"}
+{"prompt": "Label: what's cloudflare docker setup as a sample", "completion": "Sample Cloudflare Docker", "task": "label"}
+{"prompt": "Label: how do I keep the consuming app name bros", "completion": "Bros App Name", "task": "label"}
+{"prompt": "Label: what's a good default ltv to cac", "completion": "LTV to CAC", "task": "label"}
+{"prompt": "Label: how do I make overnight oats not gluey", "completion": "Overnight Oats Texture", "task": "label"}
+{"prompt": "Label: how do I revoke a leaked github pat", "completion": "GitHub PAT Revocation", "task": "label"}
+{"prompt": "Label: how do I add a customer uptime report", "completion": "Uptime Report", "task": "label"}
+{"prompt": "Label: cloudflare workers do sql rowsRead", "completion": "SQL Rows Read", "task": "label"}
+{"prompt": "Label: how do I stop docker from filling the disk", "completion": "Docker Disk Cleanup", "task": "label"}
+{"prompt": "Label: cloudflare workers cpu time limits", "completion": "Workers CPU Limits", "task": "label"}
+{"prompt": "Label: what's safe serialization for merged weights", "completion": "Safe Serialization", "task": "label"}
+{"prompt": "Label: my webcam needs fswebcam", "completion": "fswebcam Capture", "task": "label"}
+{"prompt": "Label: github vary grammar and length", "completion": "Vary Grammar Length", "task": "label"}
+{"prompt": "Label: cloudflare pages vs workers which for a static site", "completion": "Pages vs Workers", "task": "label"}
+{"prompt": "Label: what's max length in sft config", "completion": "SFT Max Length", "task": "label"}
+{"prompt": "Label: what's eventual consistency in plain words", "completion": "Eventual Consistency Basics", "task": "label"}
+{"prompt": "Label: how do I merge after each training stage", "completion": "Merge Each Stage", "task": "label"}
+{"prompt": "Label: how do I keep leftover ramen toppings", "completion": "Leftover Ramen Toppings", "task": "label"}
+{"prompt": "Label: my gpu shows nvidia-smi failed in a container", "completion": "Container GPU Access", "task": "label"}
+{"prompt": "Label: how do I include redis cache questions", "completion": "Redis Cache Prompts", "task": "label"}
+{"prompt": "Label: how do I label a sqlite locked db", "completion": "SQLite Locked Label", "task": "label"}
+{"prompt": "Label: how do I use bf16 on ampere", "completion": "Ampere bf16 Training", "task": "label"}
+{"prompt": "Label: how do I add a customer training add on", "completion": "Training Add On", "task": "label"}
+{"prompt": "Label: my webcam needs udev rules on linux", "completion": "Webcam udev Rules", "task": "label"}
+{"prompt": "Label: how do I use CUDA_VISIBLE_DEVICES for one gpu", "completion": "CUDA Visible Devices", "task": "label"}
+{"prompt": "Label: how do I add a bug bounty later", "completion": "Start Bug Bounty", "task": "label"}
+{"prompt": "Label: github max steps 1 for a smoke test", "completion": "Smoke Test Max Steps", "task": "label"}
+{"prompt": "Label: how do I set a personal budget that I actually follow", "completion": "Personal Budget Habit", "task": "label"}
+{"prompt": "Label: how do I keep avocados from browning", "completion": "Avocado Browning", "task": "label"}
+{"prompt": "Label: how do I add a transfer impact assessment", "completion": "Transfer Impact Assessment", "task": "label"}
+{"prompt": "Label: what's the difference between grpc and rest", "completion": "gRPC vs REST", "task": "label"}
+{"prompt": "Label: how do I pick a visa for a product launch trip", "completion": "Product Launch Trip Visa", "task": "label"}
+{"prompt": "Label: github copilot workspace vs local agents", "completion": "Copilot vs Local Agents", "task": "label"}
+{"prompt": "Label: Why won't my PostgreSQL connection work?", "completion": "PostgreSQL Connection Issue", "task": "label"}
+{"prompt": "Label: best carry on backpack for a 10 day europe trip", "completion": "Travel Backpack Choice", "task": "label"}
+{"prompt": "Label: how do I add a customer quarterly business review", "completion": "QBR Add On", "task": "label"}
+{"prompt": "Label: how do I include everyday questions", "completion": "Everyday Questions", "task": "label"}
+{"prompt": "Label: how do I label ipv6 broken ipv4 works", "completion": "IPv6 Issue Label", "task": "label"}
+{"prompt": "Label: my webcam needs cheese --fullscreen", "completion": "cheese Fullscreen", "task": "label"}
+{"prompt": "Label: git blame shows the wrong author after rebase", "completion": "Git Blame After Rebase", "task": "label"}
+{"prompt": "Label: help debug cors from localhost to a workers api", "completion": "CORS Localhost Debug", "task": "label"}
+{"prompt": "Label: cloudflare workers do storage list", "completion": "Durable Object Storage List", "task": "label"}
+{"prompt": "Label: the api prompt extracts protocol or design", "completion": "API Subject Extract", "task": "label"}
+{"prompt": "Label: how do I add a customer dunning email", "completion": "Dunning Email", "task": "label"}
+{"prompt": "Label: how do I label an agent tool loop", "completion": "Agent Tool Loop Label", "task": "label"}
+{"prompt": "Label: how do I add a kill fee in a contract", "completion": "Contract Kill Fee", "task": "label"}
+{"prompt": "Label: how do I use cpupower frequency-info", "completion": "cpupower Frequency Info", "task": "label"}
+{"prompt": "Label: how do I add a customer resume subscription", "completion": "Resume Subscription", "task": "label"}
+{"prompt": "Label: github include mcp prompts", "completion": "MCP Prompts", "task": "label"}
+{"prompt": "Label: what's a good default contraction mrr", "completion": "Contraction MRR", "task": "label"}
+{"prompt": "Label: my webcam needs a dummy plug for headless", "completion": "Headless Dummy Plug", "task": "label"}
+{"prompt": "Label: how do I make stock from a roast chicken carcass", "completion": "Chicken Stock From Carcass", "task": "label"}
+{"prompt": "Label: the chassis buzzes at certain fan rpm", "completion": "Chassis Fan Buzz", "task": "label"}
+{"prompt": "Label: what's a good default bounce rate", "completion": "Bounce Rate Target", "task": "label"}
+{"prompt": "Label: my raid 1 is rebuilding forever", "completion": "RAID Rebuild Stall", "task": "label"}
+{"prompt": "Label: how do I keep leftover risotto from turning glue", "completion": "Leftover Risotto", "task": "label"}
+{"prompt": "Label: what's a good default hourly rate for a senior engineer", "completion": "Senior Engineer Rate", "task": "label"}
+{"prompt": "Label: should I max hsa before 401k", "completion": "HSA vs 401k", "task": "label"}
+{"prompt": "Label: how do I model roles and permissions in sql", "completion": "SQL Roles Permissions", "task": "label"}
+{"prompt": "Label: how do I add a privacy policy people can read", "completion": "Readable Privacy Policy", "task": "label"}
+{"prompt": "Label: my webcam needs guvcview on linux", "completion": "guvcview Linux", "task": "label"}
+{"prompt": "Label: my mechanical drive is smarter than my ssd in this old laptop", "completion": "HDD vs SSD Laptop", "task": "label"}
+{"prompt": "Label: github include networking prompts", "completion": "Networking Prompts", "task": "label"}
+{"prompt": "Label: cloudflare workers do sql explain", "completion": "DO sql Explain", "task": "label"}
+{"prompt": "Label: how do I label a salary negotiation question", "completion": "Salary Negotiation Label", "task": "label"}
+{"prompt": "Label: how do I add tracing with otel", "completion": "OpenTelemetry Tracing", "task": "label"}
+{"prompt": "Label: how do I add a customer entitlement check", "completion": "Entitlement Check", "task": "label"}
+{"prompt": "Label: how do I keep leftover katsu", "completion": "Leftover Katsu", "task": "label"}
+{"prompt": "Label: k8s ingress nginx vs cloudflare tunnel", "completion": "Ingress vs Tunnel", "task": "label"}
+{"prompt": "Label: cloudflare workers local dev", "completion": "Workers Local Dev", "task": "label"}
+{"prompt": "Label: how do I include shopping checkout questions", "completion": "Shopping Checkout", "task": "label"}
+{"prompt": "Label: how do I keep tortillas from molding", "completion": "Tortilla Storage", "task": "label"}
+{"prompt": "Label: what's lora dropout", "completion": "LoRA Dropout", "task": "label"}
+{"prompt": "Label: my webcam needs ffmpeg v4l2", "completion": "ffmpeg V4L2 Capture", "task": "label"}
+{"prompt": "Label: github first skill is chat labeling", "completion": "First Skill Labeling", "task": "label"}
+{"prompt": "Label: ssh permission denied publickey on a new laptop", "completion": "SSH Public Key Issue", "task": "label"}
+{"prompt": "Label: cloudflare workers do sql rowsWritten", "completion": "SQL Rows Written", "task": "label"}
+{"prompt": "Label: how do I require Label tag on label tasks", "completion": "Require Label Tag", "task": "label"}
+{"prompt": "Label: how do I include ai agent prompts", "completion": "AI Agent Prompts", "task": "label"}
+{"prompt": "Label: github submodule add vendor bros", "completion": "Submodule Add Vendor Bros", "task": "label"}
+{"prompt": "Label: workers for platforms vs a single worker", "completion": "Workers for Platforms", "task": "label"}
+{"prompt": "Label: how do I skip special tokens on decode", "completion": "Skip Special Tokens", "task": "label"}
+{"prompt": "Label: cloudflare d1 foreign keys", "completion": "D1 Foreign Keys", "task": "label"}
+{"prompt": "Label: how do I keep labels descriptive not cute", "completion": "Descriptive Not Cute", "task": "label"}
+{"prompt": "Label: how do I keep a cut avocado green till lunch", "completion": "Cut Avocado Lunch", "task": "label"}
+{"prompt": "Label: what's a good default expansion from questionnaires", "completion": "Questionnaire Expansion", "task": "label"}
+{"prompt": "Label: how do I expire stale sessions server side", "completion": "Server Session Expiry", "task": "label"}
+{"prompt": "Label: how do I keep bros under 100mb", "completion": "Bros Model Size", "task": "label"}
+{"prompt": "Label: how do I set up a recursive dns resolver", "completion": "Recursive DNS Setup", "task": "label"}
+{"prompt": "Label: what's a good label for a leaked pat", "completion": "Leaked PAT Label", "task": "label"}
+{"prompt": "Label: what's a good invoice cadence for a freelance designer", "completion": "Freelance Invoice Cadence", "task": "label"}
+{"prompt": "Label: the label should not be a sentence", "completion": "Label Not A Sentence", "task": "label"}
+{"prompt": "Label: how do I design a kill switch for a feature", "completion": "Feature Kill Switch", "task": "label"}
+{"prompt": "Label: cloudflare workers do sql migrations", "completion": "DO SQL Migrations", "task": "label"}
+{"prompt": "Label: how do I label hugepages for postgres", "completion": "Postgres Hugepages Label", "task": "label"}
+{"prompt": "Label: how do I pick a visa for a field study", "completion": "Field Study Visa", "task": "label"}
+{"prompt": "Label: cloudflare d1 batch statements", "completion": "D1 Batch Statements", "task": "label"}
+{"prompt": "Label: how do I keep a conversation label consistent", "completion": "Consistent Chat Labels", "task": "label"}
+{"prompt": "Label: github do not commit f16 gguf", "completion": "Ignore FP16 GGUF", "task": "label"}
+{"prompt": "Label: redis cache stampede how do I stop it", "completion": "Redis Cache Stampede", "task": "label"}
+{"prompt": "Label: cloudflare workers do storage delete", "completion": "Durable Object Storage Delete", "task": "label"}
+{"prompt": "Label: how do I add cookie consent without a dark pattern", "completion": "Honest Cookie Consent", "task": "label"}
+{"prompt": "Label: the laptop dgpu only works on the hdmi port", "completion": "dGPU HDMI Only", "task": "label"}
+{"prompt": "Label: what's a good default expansion from architect time", "completion": "Architect Time Expansion", "task": "label"}
+{"prompt": "Label: my nginx reverse proxy returns 502", "completion": "Nginx Reverse Proxy Error", "task": "label"}
+{"prompt": "Label: how do I test webhooks locally with cloudflare tunnels", "completion": "Tunnel Webhook Testing", "task": "label"}
+{"prompt": "Label: what's a good default expansion from sla legal", "completion": "SLA Legal Expansion", "task": "label"}
+{"prompt": "Label: the laptop 62gb ram is fine for 135m", "completion": "62GB RAM Enough", "task": "label"}
+{"prompt": "Label: how do I pick a visa for a book tour", "completion": "Book Tour Visa", "task": "label"}
+{"prompt": "Label: how do I pick a visa for a shipyard visit", "completion": "Shipyard Visit Visa", "task": "label"}
+{"prompt": "Label: how do I label a cap table question", "completion": "Cap Table Label", "task": "label"}
+{"prompt": "Label: what's a good default runway target", "completion": "Startup Runway Target", "task": "label"}
+{"prompt": "Label: cloudflare workers secrets rotate", "completion": "Workers Secret Rotate", "task": "label"}
+{"prompt": "Label: what's a good default k factor", "completion": "K Factor Target", "task": "label"}
+{"prompt": "Label: my oauth redirect uri mismatch in production", "completion": "OAuth Redirect Mismatch", "task": "label"}
+{"prompt": "Label: how do I add a subprocessors list", "completion": "Subprocessors List", "task": "label"}
+{"prompt": "Label: cloudflare bot fight mode blocking our tests", "completion": "Bot Fight False Positive", "task": "label"}
+{"prompt": "Label: what's the difference between a skill and a tool", "completion": "Skills vs Tools", "task": "label"}
+{"prompt": "Label: how do I add a new task tag to bros", "completion": "Bros New Task Tag", "task": "label"}
+{"prompt": "Label: how do I keep leftover casserole from drying", "completion": "Leftover Casserole", "task": "label"}
+{"prompt": "Label: how do I pick a visa for a university visit", "completion": "University Visit Visa", "task": "label"}
+{"prompt": "Label: what's a good default expansion from vpc", "completion": "VPC Expansion", "task": "label"}
+{"prompt": "Label: how do I keep leftover waffles crisp", "completion": "Leftover Waffle Crisp", "task": "label"}
+{"prompt": "Label: how do I pick a visa for a medical trip", "completion": "Medical Trip Visa", "task": "label"}
+{"prompt": "Label: what's a good default expansion attach", "completion": "Expansion Attach Rate", "task": "label"}
+{"prompt": "Label: how do I add a health check to a worker", "completion": "Worker Health Check", "task": "label"}
+{"prompt": "Label: github dependabot noise is drowning real alerts", "completion": "Dependabot Alert Noise", "task": "label"}
+{"prompt": "Label: how do I pick a visa for a cruise port", "completion": "Cruise Port Visa", "task": "label"}
+{"prompt": "Label: how do I keep evals from overfitting prompts", "completion": "Eval Overfit Prevention", "task": "label"}
+{"prompt": "Label: the model is not a general chatbot", "completion": "Not A Chatbot", "task": "label"}
+{"prompt": "Label: how do I add a changelog customers read", "completion": "Customer Changelog", "task": "label"}
+{"prompt": "Label: how do I get a schengen visa appointment faster", "completion": "Schengen Visa Appointment", "task": "label"}
+{"prompt": "Label: why is my homemade yogurt watery", "completion": "Watery Yogurt Fix", "task": "label"}
+{"prompt": "Label: my sd card is read only suddenly", "completion": "SD Card Read Only", "task": "label"}
+{"prompt": "Label: why did my mayonnaise split", "completion": "Split Mayonnaise Fix", "task": "label"}
+{"prompt": "Label: my graphql resolver n plus one is killing us", "completion": "GraphQL N Plus One", "task": "label"}
+{"prompt": "Label: github fine grained tokens vs classic", "completion": "Fine Grained vs Classic PAT", "task": "label"}
+{"prompt": "Label: what's a good default expansion from sms", "completion": "SMS Expansion", "task": "label"}
+{"prompt": "Label: what's a good label for a clicking nas", "completion": "NAS Click Label", "task": "label"}
+{"prompt": "Label: my espresso tastes sour even with a finer grind", "completion": "Sour Espresso Debug", "task": "label"}
+{"prompt": "Label: how do I rotate jwt signing keys", "completion": "JWT Key Rotation", "task": "label"}
+{"prompt": "Label: how do I add a lawful basis table", "completion": "Lawful Basis Table", "task": "label"}
+{"prompt": "Label: how do I keep leftover dorayaki", "completion": "Leftover Dorayaki", "task": "label"}
+{"prompt": "Label: gpu memory fragmentation during training", "completion": "GPU Memory Fragmentation", "task": "label"}
+{"prompt": "Label: how do I keep the ollama name bros after new skills", "completion": "Keep Bros Model Name", "task": "label"}
+{"prompt": "Label: github do not vendor llama cpp", "completion": "Do Not Vendor llamacpp", "task": "label"}
+{"prompt": "Label: how do I call bros with a Label tag", "completion": "Bros Label Tag", "task": "label"}
+{"prompt": "Label: how do I inspect systemd cgroup memory", "completion": "systemd Cgroup Memory", "task": "label"}
+{"prompt": "Label: how do I label a blank spa deploy", "completion": "Blank SPA Label", "task": "label"}
+{"prompt": "Label: how do I pick a visa for a hospital rotation", "completion": "Hospital Rotation Visa", "task": "label"}
+{"prompt": "Label: cloudflare workers subrequest limits", "completion": "Workers Subrequest Limits", "task": "label"}
+{"prompt": "Label: my webcam needs rpicam-hello", "completion": "Raspberry Pi Camera Hello", "task": "label"}
+{"prompt": "Label: how do I keep leftover dumplings from sticking", "completion": "Leftover Dumplings", "task": "label"}
+{"prompt": "Label: how do I pick a visa for a factory visit", "completion": "Factory Visit Visa", "task": "label"}
+{"prompt": "Label: How do I fine-tune a small language model?", "completion": "LLM Fine Tuning", "task": "label"}
+{"prompt": "Label: what's processing class tokenizer", "completion": "Processing Class Tokenizer", "task": "label"}
+{"prompt": "Label: workers analytics engine vs logs", "completion": "Analytics Engine vs Logs", "task": "label"}
+{"prompt": "Label: the finance prompt still stays two to five words", "completion": "Finance Label Length", "task": "label"}
+{"prompt": "Label: my webcam needs cheese contrast", "completion": "cheese Contrast", "task": "label"}
+{"prompt": "Label: my sd card speed is fake cheap garbage", "completion": "Fake SD Card Speed", "task": "label"}
+{"prompt": "Label: what's a good label for a hanging vacuum analyze", "completion": "Vacuum Analyze Label", "task": "label"}
+{"prompt": "Label: my webcam needs ffmpeg drawtext overlay", "completion": "ffmpeg Overlay Webcam", "task": "label"}
+{"prompt": "Label: how do I add a customer migration guide", "completion": "Customer Migration Guide", "task": "label"}
+{"prompt": "Label: how do I eval exact match vs valid label rate", "completion": "Label Eval Metrics", "task": "label"}
+{"prompt": "Label: the laptop speakers rattle at one frequency", "completion": "Speaker Rattle", "task": "label"}
+{"prompt": "Label: how do I add a customer encryption at rest proof", "completion": "Encryption At Rest Proof", "task": "label"}
+{"prompt": "Label: can I run kubernetes on a single node for a homelab", "completion": "Single Node Kubernetes", "task": "label"}
+{"prompt": "Label: how do I negotiate a software salary band", "completion": "Salary Band Negotiation", "task": "label"}
+{"prompt": "Label: what's the difference between rbac and abac", "completion": "RBAC vs ABAC", "task": "label"}
+{"prompt": "Label: cloudflare workers hibernation api", "completion": "Hibernation API", "task": "label"}
+{"prompt": "Label: best street food in mexico city for a first visit", "completion": "Mexico City Street Food", "task": "label"}
+{"prompt": "Label: how do I keep install-ollama noninteractive", "completion": "Noninteractive Ollama Create", "task": "label"}
+{"prompt": "Label: what's a good label for a sour espresso", "completion": "Sour Espresso Label", "task": "label"}
+{"prompt": "Label: how do I include kubernetes networking", "completion": "K8s Networking Prompts", "task": "label"}
+{"prompt": "Label: cloudflare d1 time travel restore", "completion": "D1 Time Travel", "task": "label"}
+{"prompt": "Label: what's a good label for actions cache miss", "completion": "Actions Cache Label", "task": "label"}
+{"prompt": "Label: how do I keep basil alive on a windowsill", "completion": "Windowsill Basil Care", "task": "label"}
+{"prompt": "Label: how do I add a customer usage cap email", "completion": "Usage Cap Email", "task": "label"}
+{"prompt": "Label: what's a good default expansion from premium support", "completion": "Premium Support Expansion", "task": "label"}
+{"prompt": "Label: what's a good default payback period", "completion": "CAC Payback Period", "task": "label"}
+{"prompt": "Label: how do I add a most favored nation clause", "completion": "MFN Contract Clause", "task": "label"}
+{"prompt": "Label: nuxt i18n routing is duplicating locales", "completion": "Nuxt i18n Routing", "task": "label"}
+{"prompt": "Label: how do I pick a visa for a language exam", "completion": "Language Exam Visa", "task": "label"}
+{"prompt": "Label: what's first user message labeling", "completion": "First Message Label", "task": "label"}
+{"prompt": "Label: my docker desktop on linux is painfully slow", "completion": "Docker Desktop Slow", "task": "label"}
+{"prompt": "Label: how do I stop an llm from leaking the system prompt", "completion": "System Prompt Leakage", "task": "label"}
+{"prompt": "Label: how do I plan a 3 day tokyo itinerary without overbooking", "completion": "Tokyo Three Day Plan", "task": "label"}
+{"prompt": "Label: how do I add a customer pause subscription", "completion": "Pause Subscription", "task": "label"}
+{"prompt": "Label: cloudflare workers email handler", "completion": "Workers Email Handler", "task": "label"}
+{"prompt": "Label: what's a good default seat attach", "completion": "Seat Attach Rate", "task": "label"}
+{"prompt": "Label: what's a good default pages per session", "completion": "Pages Per Session", "task": "label"}
+{"prompt": "Label: how do I label a git rebase question", "completion": "Sample Git Rebase", "task": "label"}
+{"prompt": "Label: the ai prompt still must not become a tutorial", "completion": "AI Prompt Short Label", "task": "label"}
+{"prompt": "Label: my ssd is at 100 percent and the laptop crawls", "completion": "Full SSD Slowdown", "task": "label"}
+{"prompt": "Label: the laptop won't charge past 80 after a firmware thing", "completion": "Charge Limit Firmware", "task": "label"}
+{"prompt": "Label: what's a concise title like label", "completion": "Title Like Label", "task": "label"}
+{"prompt": "Label: what's a good label for a detached head", "completion": "Detached Head Label", "task": "label"}
+{"prompt": "Label: what's a good default demo to close rate", "completion": "Demo to Close", "task": "label"}
+{"prompt": "Label: github include finance questions", "completion": "Finance Questions", "task": "label"}
+{"prompt": "Label: how do I enable fsync off for a throwaway postgres", "completion": "Postgres fsync Off", "task": "label"}
+{"prompt": "Label: how do I get lounge access without status", "completion": "Lounge Access Without Status", "task": "label"}
+{"prompt": "Label: how do I add a customer support tier", "completion": "Support Tier Add On", "task": "label"}
+{"prompt": "Label: my webcam ir blaster confuses face unlock", "completion": "IR Face Unlock", "task": "label"}
+{"prompt": "Label: what's a good default win rate", "completion": "Sales Win Rate", "task": "label"}
+{"prompt": "Label: what's a good label for a fail2ban setup", "completion": "Fail2ban Setup Label", "task": "label"}
+{"prompt": "Label: how do I pick a visa for a medical residency observership", "completion": "Observership Visa", "task": "label"}
+{"prompt": "Label: how do I keep leftover herbs in a jar of water", "completion": "Herbs In Water", "task": "label"}
+{"prompt": "Label: sqlite locked database in a fastapi app", "completion": "SQLite Database Locked", "task": "label"}
+{"prompt": "Label: laptop won't resume from suspend on fedora", "completion": "Fedora Suspend Resume", "task": "label"}
+{"prompt": "Label: what's a good default organic cac", "completion": "Organic CAC Target", "task": "label"}
+{"prompt": "Label: how do I host a private npm registry", "completion": "Private npm Registry", "task": "label"}
+{"prompt": "Label: github merge queue vs required checks", "completion": "Merge Queue vs Checks", "task": "label"}
+{"prompt": "Label: what's a durable object on cloudflare", "completion": "Cloudflare Durable Objects", "task": "label"}
+{"prompt": "Label: cloudflare workers do sql size", "completion": "DO sql Size", "task": "label"}
+{"prompt": "Label: how do I add a customer advisory board", "completion": "Customer Advisory Board", "task": "label"}
+{"prompt": "Label: explain hex architecture without the jargon", "completion": "Hexagonal Architecture Basics", "task": "label"}
+{"prompt": "Label: how do I use batch size 8 on a 3080", "completion": "Batch Size 8", "task": "label"}
+{"prompt": "Label: systemd service won't stay running", "completion": "Systemd Service Crash", "task": "label"}
+{"prompt": "Label: how do I use capsh to debug capabilities", "completion": "capsh Capabilities", "task": "label"}
+{"prompt": "Label: how do I use taskset to pin training to p cores", "completion": "Pin Training Cores", "task": "label"}
+{"prompt": "Label: how do I find a last minute rental car", "completion": "Last Minute Rental Car", "task": "label"}
+{"prompt": "Label: what's a good default billed vs collected", "completion": "Billed vs Collected", "task": "label"}
+{"prompt": "Label: cloudflare workers do sql batch", "completion": "Durable Object SQL Batch", "task": "label"}
+{"prompt": "Label: how do I include api prompts", "completion": "API Prompts", "task": "label"}
+{"prompt": "Label: how do I include long rambling user prompts", "completion": "Long User Prompts", "task": "label"}
+{"prompt": "Label: github include docker questions", "completion": "Docker Questions", "task": "label"}
+{"prompt": "Label: how do I keep leftover bread from staling fast", "completion": "Leftover Bread", "task": "label"}
+{"prompt": "Label: what's a good default gross margin for saas", "completion": "SaaS Gross Margin", "task": "label"}
+{"prompt": "Label: how do I add a customer dpa signing", "completion": "DPA Signing", "task": "label"}
+{"prompt": "Label: how do I add a security.txt", "completion": "Security Text File", "task": "label"}
+{"prompt": "Label: how do I keep leftover peanut sauce", "completion": "Leftover Peanut Sauce", "task": "label"}
+{"prompt": "Label: what's a good label for a schengen appointment", "completion": "Schengen Appointment Label", "task": "label"}
+{"prompt": "Label: how do I label a sidecar proxy question", "completion": "Sidecar Proxy Label", "task": "label"}
+{"prompt": "Label: how do I add device code flow", "completion": "OAuth Device Code", "task": "label"}
+{"prompt": "Label: how do I include general how does x work prompts", "completion": "How Does X Work", "task": "label"}
+{"prompt": "Label: how do I include hardware troubleshooting", "completion": "Hardware Troubleshooting", "task": "label"}
+{"prompt": "Label: how do I rotate a kms key used by the app", "completion": "KMS Key Rotation", "task": "label"}
+{"prompt": "Label: the hotel wifi captive portal breaks wireguard", "completion": "Captive Portal VPN", "task": "label"}
+{"prompt": "Label: what's a good label for a screaming laptop fan", "completion": "Laptop Fan Label", "task": "label"}
+{"prompt": "Label: should I use a roth or traditional ira", "completion": "Roth vs Traditional IRA", "task": "label"}
+{"prompt": "Label: what's a good label for a cors debug", "completion": "CORS Debug Label", "task": "label"}
+{"prompt": "Label: agent needs a human approval step", "completion": "Agent Human Approval", "task": "label"}
+{"prompt": "Label: github include networking troubleshooting", "completion": "Networking Troubleshooting", "task": "label"}
+{"prompt": "Label: github clone depth 1 for the model", "completion": "Shallow Clone Model", "task": "label"}
+{"prompt": "Label: explain backpressure in a queue", "completion": "Queue Backpressure", "task": "label"}
+{"prompt": "Label: how do I add a public roadmap without overpromising", "completion": "Public Roadmap", "task": "label"}
+{"prompt": "Label: how do I keep leftover noodles from a brick", "completion": "Leftover Noodles", "task": "label"}
+{"prompt": "Label: how do I keep leftover lasagna overnight", "completion": "Leftover Lasagna", "task": "label"}
+{"prompt": "Label: how do I keep cilantro from wilting in a day", "completion": "Cilantro Storage", "task": "label"}
+{"prompt": "Label: what's an mcp tool versus a resource", "completion": "MCP Tools vs Resources", "task": "label"}
+{"prompt": "Label: what's a good default expansion from regions", "completion": "Region Expansion", "task": "label"}
+{"prompt": "Label: how do I load jsonl with datasets", "completion": "Load JSONL Dataset", "task": "label"}
+{"prompt": "Label: What's the difference between an AI agent and an AI model?", "completion": "Agents vs Models", "task": "label"}
+{"prompt": "Label: what's a good default expansion from solutions engineering", "completion": "Solutions Expansion", "task": "label"}
+{"prompt": "Label: how do I keep leftover melonpan", "completion": "Leftover Melonpan", "task": "label"}
+{"prompt": "Label: what's kv cache in transformers", "completion": "Transformer KV Cache", "task": "label"}
+{"prompt": "Label: cloudflare workers wall clock", "completion": "Workers Wall Clock", "task": "label"}
+{"prompt": "Label: the ci prompt still stays short", "completion": "CI Short Label", "task": "label"}
+{"prompt": "Label: how do I label qlora for 135m", "completion": "QLoRA 135M Label", "task": "label"}
+{"prompt": "Label: how do I include api design questions", "completion": "API Design Prompts", "task": "label"}
+{"prompt": "Label: what's a good default grr", "completion": "Gross Revenue Retention", "task": "label"}
+{"prompt": "Label: what's a good definition of done for a tiny team", "completion": "Definition of Done", "task": "label"}
+{"prompt": "Label: how do I include docker compose prompts", "completion": "Docker Compose Prompts", "task": "label"}
+{"prompt": "Label: how do I use eBPF to trace syscalls", "completion": "eBPF Syscall Trace", "task": "label"}
+{"prompt": "Label: github include authentication prompts", "completion": "Authentication Prompts", "task": "label"}
+{"prompt": "Label: what's apply chat template", "completion": "Apply Chat Template", "task": "label"}
+{"prompt": "Label: git rebase vs merge which should I use", "completion": "Git Rebase vs Merge", "task": "label"}
+{"prompt": "Label: how do I label a cloudflare access setup", "completion": "Access Setup Label", "task": "label"}
+{"prompt": "Label: my usb dac needs to be replugged after sleep", "completion": "USB DAC After Sleep", "task": "label"}
+{"prompt": "Label: what's a good label for a hanging vacuum", "completion": "Vacuum Hang Label", "task": "label"}
+{"prompt": "Label: what's a good default nrr including expansion", "completion": "NRR With Expansion", "task": "label"}
+{"prompt": "Label: got a leaked github token in a screenshot yikes", "completion": "Leaked Token Screenshot", "task": "label"}
+{"prompt": "Label: how do I label a gguf convert question", "completion": "GGUF Convert Label", "task": "label"}
+{"prompt": "Label: how do I keep leftover keema naan", "completion": "Leftover Keema Naan", "task": "label"}
+{"prompt": "Label: what's a good label for a standup format", "completion": "Standup Format Label", "task": "label"}
+{"prompt": "Label: what's a reward model in rlhf", "completion": "RLHF Reward Model", "task": "label"}
+{"prompt": "Label: why is my docker compose postgres volume empty after restart", "completion": "Docker Volume Persistence", "task": "label"}
+{"prompt": "Label: what's a good default expansion from pentest", "completion": "Pentest Expansion", "task": "label"}
+{"prompt": "Label: how do I pick a visa for a land border", "completion": "Land Border Visa", "task": "label"}
+{"prompt": "Label: my webcam needs cheese burst mode", "completion": "cheese Burst", "task": "label"}
+{"prompt": "Label: how do I label a packing liquids question", "completion": "TSA Liquids Label", "task": "label"}
+{"prompt": "Label: how do I keep leftover naan soft", "completion": "Leftover Naan", "task": "label"}
+{"prompt": "Label: the laptop is ampere so bf16 is supported", "completion": "Ampere bf16 Supported", "task": "label"}
+{"prompt": "Label: how do I avoid atm fees abroad", "completion": "Foreign ATM Fees", "task": "label"}
+{"prompt": "Label: github include this project as examples too", "completion": "Project Meta Prompts", "task": "label"}
+{"prompt": "Label: how do I use tc to simulate latency", "completion": "tc Latency Simulation", "task": "label"}
+{"prompt": "Label: the laptop keyboard ghosting in games", "completion": "Keyboard Ghosting", "task": "label"}
+{"prompt": "Label: how do I store refresh tokens securely", "completion": "Secure Refresh Tokens", "task": "label"}
+{"prompt": "Label: my usb c hub won't charge and display at once", "completion": "USB Hub Power Issue", "task": "label"}
+{"prompt": "Label: gguf vs safetensors for ollama", "completion": "GGUF vs Safetensors", "task": "label"}
+{"prompt": "Label: what's a good default expansion from api calls", "completion": "API Call Expansion", "task": "label"}
+{"prompt": "Label: how do I label a helm versus kustomize question", "completion": "Helm vs Kustomize Label", "task": "label"}
+{"prompt": "Label: how do I continue sft from a merged checkpoint", "completion": "Continue From Merged", "task": "label"}
+{"prompt": "Label: how do I add a customer implementation manager", "completion": "Implementation Manager", "task": "label"}
+{"prompt": "Label: my webcam needs cheese for a still", "completion": "cheese Webcam Still", "task": "label"}
+{"prompt": "Label: my webcam needs mpv av://v4l2", "completion": "mpv V4L2 Preview", "task": "label"}
+{"prompt": "Label: how do I label a multiarch build", "completion": "Multiarch Build Label", "task": "label"}
+{"prompt": "Label: what's a good default product qualified lead", "completion": "PQL Target", "task": "label"}
+{"prompt": "Label: my webcam needs cheese brightness", "completion": "cheese Brightness", "task": "label"}
+{"prompt": "Label: how do I add a data residency option", "completion": "Data Residency Option", "task": "label"}
+{"prompt": "Label: how do I pick a visa for an ngo assignment", "completion": "NGO Assignment Visa", "task": "label"}
+{"prompt": "Label: the training prompt extracts the method not a recipe dump", "completion": "Training Method Label", "task": "label"}
+{"prompt": "Label: how do I keep leftover fish from smelling the fridge", "completion": "Leftover Fish Smell", "task": "label"}
+{"prompt": "Label: why does nvidia-smi fail inside this container", "completion": "nvidia smi In Container", "task": "label"}
+{"prompt": "Label: how do I pick a visa for a train through a third country", "completion": "Train Third Country Visa", "task": "label"}
+{"prompt": "Label: what's chain of thought vs just answering", "completion": "Chain of Thought", "task": "label"}
+{"prompt": "Label: how do I label a passkey setup question", "completion": "Passkey Setup Label", "task": "label"}
+{"prompt": "Label: what's a good default mql to sql", "completion": "MQL to SQL", "task": "label"}
+{"prompt": "Label: how do I add a customer sso add on", "completion": "SSO Add On", "task": "label"}
+{"prompt": "Label: how do I document a new bros skill", "completion": "Document Bros Skill", "task": "label"}
+{"prompt": "Label: how do I keep python out of the bros app runtime", "completion": "Training Time Python Only", "task": "label"}
+{"prompt": "Label: how do I keep leftover menchi katsu", "completion": "Leftover Menchi Katsu", "task": "label"}
+{"prompt": "Label: cloudflare load balancing vs dns failover", "completion": "Load Balancing vs DNS", "task": "label"}
+{"prompt": "Label: how do I shard a postgres table later", "completion": "Postgres Table Sharding", "task": "label"}
+{"prompt": "Label: what's completion only loss", "completion": "Completion Only Loss", "task": "label"}
+{"prompt": "Label: how do I include hardware prompts", "completion": "Hardware Prompts", "task": "label"}
+{"prompt": "Label: my webcam shutter sound is a legal thing in this country", "completion": "Webcam Shutter Law", "task": "label"}
+{"prompt": "Label: how do I label a missing gguf install failure", "completion": "Missing GGUF Label", "task": "label"}
+{"prompt": "Label: how do I use lsns to see namespaces", "completion": "lsns Namespaces", "task": "label"}
+{"prompt": "Label: how do I use ruff in pre commit", "completion": "Ruff Pre Commit", "task": "label"}
+{"prompt": "Label: github 80 10 10 split seed 42", "completion": "Deterministic 80 10 10", "task": "label"}
+{"prompt": "Label: what's a good default magic number for churn", "completion": "Logo Churn Target", "task": "label"}
+{"prompt": "Label: my webcam needs cheese countdown 3", "completion": "cheese Countdown Three", "task": "label"}
+{"prompt": "Label: how do I pick a visa for a workation", "completion": "Workation Visa", "task": "label"}
+{"prompt": "Label: how do I not pass the old tokenizer kwarg", "completion": "No Old tokenizer Kwarg", "task": "label"}
+{"prompt": "Label: how do I add a customer grace period", "completion": "Customer Grace Period", "task": "label"}
+{"prompt": "Label: how do I make labneh at home", "completion": "Homemade Labneh", "task": "label"}
+{"prompt": "Label: budget app that doesn't make me feel guilty", "completion": "Guilt Free Budget App", "task": "label"}
+{"prompt": "Label: how do I pick a visa for a missionary trip", "completion": "Missionary Trip Visa", "task": "label"}
+{"prompt": "Label: how do I avoid catastrophic forgetting in sft", "completion": "SFT Catastrophic Forgetting", "task": "label"}
+{"prompt": "Label: what's a feature flag vs an experiment", "completion": "Flags vs Experiments", "task": "label"}
+{"prompt": "Label: cloudflare durable object storage limits", "completion": "Durable Object Storage", "task": "label"}
+{"prompt": "Label: how do I keep honey from crystallizing badly", "completion": "Honey Crystallization", "task": "label"}
+{"prompt": "Label: cloudflare workers cpu accounting", "completion": "Workers CPU Accounting", "task": "label"}
+{"prompt": "Label: how do I switch eval to steps for a smoke train", "completion": "Smoke Train Eval Steps", "task": "label"}
+{"prompt": "Label: how do I find a direct flight with extra legroom", "completion": "Legroom Direct Flight", "task": "label"}
+{"prompt": "Label: how do I add a status page subscriber list", "completion": "Status Page Subscribers", "task": "label"}
+{"prompt": "Label: what's a good label for a failed prisma migrate", "completion": "Prisma Migrate Label", "task": "label"}
+{"prompt": "Label: what's a good label for ollama packaging", "completion": "Ollama Package Label", "task": "label"}
+{"prompt": "Label: how do I pick a visa for a ctf", "completion": "CTF Visa", "task": "label"}
+{"prompt": "Label: the laptop trackpad clicks but doesn't move", "completion": "Trackpad Click Issue", "task": "label"}
+{"prompt": "Label: how do I include bros specific operator questions", "completion": "Bros Operator Prompts", "task": "label"}
+{"prompt": "Label: how do I pack a suit in a carry on", "completion": "Packing a Suit", "task": "label"}
+{"prompt": "Label: what's a good default paid conversion", "completion": "Paid Conversion Rate", "task": "label"}
+{"prompt": "Label: how do I pick a visa run strategy", "completion": "Visa Run Strategy", "task": "label"}
+{"prompt": "Label: how do I eval a prompt change without a huge dataset", "completion": "Prompt Eval Basics", "task": "label"}
+{"prompt": "Label: how do I set ulimits for a high connection server", "completion": "Linux Ulimit Tuning", "task": "label"}
+{"prompt": "Label: how do I use lsof on a deleted but open file", "completion": "lsof Deleted Files", "task": "label"}
+{"prompt": "Label: how do I include ci cd questions", "completion": "CICD Prompts", "task": "label"}
+{"prompt": "Label: github seed 42 everywhere", "completion": "Seed 42 Everywhere", "task": "label"}
+{"prompt": "Label: how do I keep leftover curry overnight", "completion": "Leftover Curry", "task": "label"}
+{"prompt": "Label: the architecture prompt is a subject not a lecture", "completion": "Architecture Subject Only", "task": "label"}
+{"prompt": "Label: how do I run playwright in github actions", "completion": "Playwright GitHub Actions", "task": "label"}
+{"prompt": "Label: how do I add a post incident review invite", "completion": "PIR Invite", "task": "label"}
+{"prompt": "Label: my nvme is not detected in the bios", "completion": "NVMe BIOS Detection", "task": "label"}
+{"prompt": "Label: how do I add a customer named engineer", "completion": "Named Engineer Add On", "task": "label"}
+{"prompt": "Label: the user prompt can contain multiple concepts", "completion": "Multi Concept User", "task": "label"}
+{"prompt": "Label: how do I rotate secrets in kubernetes", "completion": "Kubernetes Secret Rotation", "task": "label"}
+{"prompt": "Label: the laptop charges slow on a third party brick", "completion": "Third Party Charger Slow", "task": "label"}
+{"prompt": "Label: how do I pick a visa for an ietf meeting", "completion": "IETF Meeting Visa", "task": "label"}
+{"prompt": "Label: how do I pick a visa for a choir tour", "completion": "Choir Tour Visa", "task": "label"}
+{"prompt": "Label: how do I keep the starter set varied", "completion": "Varied Starter Set", "task": "label"}
+{"prompt": "Label: hono vs itty router on workers", "completion": "Hono vs Itty Router", "task": "label"}
+{"prompt": "Label: github current trl sft apis", "completion": "Current TRL APIs", "task": "label"}
+{"prompt": "Label: what's a circuit breaker in an api", "completion": "API Circuit Breaker", "task": "label"}
+{"prompt": "Label: uv pin a package without a lockfile fight", "completion": "uv Pin Package", "task": "label"}
+{"prompt": "Label: cloudflare workers minify", "completion": "Workers Minify", "task": "label"}
+{"prompt": "Label: what's a good default net dollar retention", "completion": "Net Dollar Retention", "task": "label"}
+{"prompt": "Label: nuxt layer for a design system", "completion": "Nuxt Design System Layer", "task": "label"}
+{"prompt": "Label: how do I keep leftover cheese naan", "completion": "Leftover Cheese Naan", "task": "label"}
+{"prompt": "Label: what's a good default magic number for dau mau", "completion": "DAU MAU Ratio", "task": "label"}
+{"prompt": "Label: how do I pick a visa for a partner summit", "completion": "Partner Summit Visa", "task": "label"}
+{"prompt": "Label: what's a good default discount rate in npv", "completion": "NPV Discount Rate", "task": "label"}
+{"prompt": "Label: tailwind styles not applying in a nuxt 3 app", "completion": "Nuxt Tailwind Issue", "task": "label"}
+{"prompt": "Label: github install from a submodule path", "completion": "Submodule Install Path", "task": "label"}
+{"prompt": "Label: the devops prompt extracts the tool and the action", "completion": "DevOps Tool Action", "task": "label"}
+{"prompt": "Label: what's a good label for a hanging systemd unit", "completion": "Systemd Hang Label", "task": "label"}
+{"prompt": "Label: cloudflare snippets vs a worker", "completion": "Snippets vs Worker", "task": "label"}
+{"prompt": "Label: how do I include linux prompts", "completion": "Linux Prompts", "task": "label"}
+{"prompt": "Label: k8s ingress or a cloudflare tunnel for a homelab", "completion": "Homelab Ingress Choice", "task": "label"}
+{"prompt": "Label: how do I add examples without duplicating prompts", "completion": "Avoid Duplicate Prompts", "task": "label"}
+{"prompt": "Label: the programming prompt still gets a short title", "completion": "Programming Short Title", "task": "label"}
+{"prompt": "Label: how do I set up a cloudflare zero trust access app", "completion": "Cloudflare Access Setup", "task": "label"}
+{"prompt": "Label: what's a good label for session cookies versus jwt", "completion": "Sessions vs JWT Label", "task": "label"}
+{"prompt": "Label: how do I label a jwt rotation question", "completion": "JWT Rotation Label", "task": "label"}
+{"prompt": "Label: how do I get a visa appointment in a third country", "completion": "Third Country Visa", "task": "label"}
+{"prompt": "Label: how do I pick a visa-free route", "completion": "Visa Free Route", "task": "label"}
+{"prompt": "Label: github copilot vs a local 135m model", "completion": "Copilot vs Local Model", "task": "label"}
+{"prompt": "Label: kustomize vs helm for a small cluster", "completion": "Kustomize vs Helm", "task": "label"}
+{"prompt": "Label: how do I add 2fa to my github org", "completion": "GitHub Org 2FA", "task": "label"}
+{"prompt": "Label: the sample nuxt cloudflare deploy label", "completion": "Sample Nuxt Cloudflare", "task": "label"}
+{"prompt": "Label: what's a good default expansion from exec sponsor", "completion": "Exec Sponsor Expansion", "task": "label"}
+{"prompt": "Label: how do I find quiet cafes in paris to work", "completion": "Paris Work Cafes", "task": "label"}
+{"prompt": "Label: cloudflare workers do sql vacuum", "completion": "DO sql Vacuum", "task": "label"}
+{"prompt": "Label: should I pay points to buy down a mortgage rate", "completion": "Mortgage Points Decision", "task": "label"}
+{"prompt": "Label: my usb ethernet dongle dies under load", "completion": "USB Ethernet Dropout", "task": "label"}
+{"prompt": "Label: how do I get a visa invitation letter", "completion": "Visa Invitation Letter", "task": "label"}
+{"prompt": "Label: what's num predict in ollama", "completion": "Ollama Token Limit", "task": "label"}
+{"prompt": "Label: what's a good default activation rate", "completion": "Activation Rate Target", "task": "label"}
+{"prompt": "Label: why does my spa show a blank page after deploy", "completion": "SPA Blank Deploy", "task": "label"}
+{"prompt": "Label: how do I get a refund on a nonrefundable hotel", "completion": "Hotel Refund Request", "task": "label"}

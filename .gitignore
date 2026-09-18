@@ -1,0 +1,30 @@
+.venv/
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+dist/
+build/
+.python-version
+.ruff_cache/
+.mypy_cache/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Hugging Face / torch caches
+.cache/
+hf-cache/
+wandb/
+
+# Training leftovers (packaged GGUF lives in models/)
+output/**
+!output/.gitkeep
+*.f16.gguf
+*.fp16.gguf
+
+# Editors
+.idea/
+.vscode/
+*.swp

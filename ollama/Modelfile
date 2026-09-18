@@ -1,0 +1,20 @@
+FROM ../models/bros-q4_k_m.gguf
+
+TEMPLATE """{{ if .System }}<|im_start|>system
+{{ .System }}<|im_end|>
+{{ end }}{{ if .Prompt }}<|im_start|>user
+{{ .Prompt }}<|im_end|>
+{{ end }}<|im_start|>assistant
+"""
+
+SYSTEM """You are Bros, a small specialist model for the Bros app.
+Follow the task tag at the start of the user message.
+Label: generate a concise 2-5 word label for the user's first message. Return only the label. No punctuation. No explanation."""
+
+PARAMETER temperature 0
+PARAMETER top_p 0.1
+PARAMETER top_k 10
+PARAMETER num_predict 16
+PARAMETER seed 42
+PARAMETER stop <|im_end|>
+PARAMETER stop <|im_start|>
