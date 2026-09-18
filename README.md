@@ -1,12 +1,46 @@
-# Bros
+# Bros specialist model
 
-Bros is a small specialist language model for the **Bros app**. It is not a general-purpose chatbot.
+This repository is the **[Bros](https://github.com/jasenmichael/bros) app internal specialist** — a small Ollama model installed into the Bros **Ollama sidecar**. It is not a standalone chatbot and not a Chat or Models picker model. Users of the Bros app never select it.
 
-The first shipped skill is **chat labeling**: take the first user message of a chat and return a concise 2–5 word label. Later Bros-app mini-tasks use the same 135M model, the same Ollama name (`bros`), and more training data.
+- Model repo: https://github.com/jasenmichael/bros-model
+- Bros app: https://github.com/jasenmichael/bros
 
-## Clone and install into Ollama
+The first shipped skill is **chat labeling**: take the first user message of a chat and return a concise 2–5 word label. Later Bros-app mini-tasks use the same 135M model, the same Ollama name (`bros`), and more training data. Training, convert, and llama.cpp sections below are for people who will add those skills.
 
-Use this path if you only want to **run** Bros in Ollama. You do not need Python, PyTorch, or training.
+Packaged artifacts:
+
+- GGUF: `models/bros-q4_k_m.gguf`
+- Modelfile: `ollama/Modelfile`
+- Install: `scripts/install-ollama.sh`
+
+## How the Bros app installs it
+
+[Bros](https://github.com/jasenmichael/bros) vendors this repo as git submodule `vendor/bros-model`.
+
+When the Ollama sidecar starts (`startSidecar('ollama')`) and when `/api/models` sees that sidecar running, Bros `ensureInternalBrosModel()`:
+
+1. Copies `models/`, `ollama/`, and `scripts/` onto `$BROS_HOST_DATA_DIR/bros-model`
+2. Bind-mounts that tree into the sidecar: `${BROS_HOST_DATA_DIR}/bros-model:/bros-model:ro`
+3. Exec inside `bros-sc-ollama`: `bash /bros-model/scripts/install-ollama.sh` (`ollama create bros -f ollama/Modelfile`)
+4. Writes the created model into sidecar `/root/.ollama` (`$BROS_HOST_DATA_DIR/ollama`)
+
+Skip if sidecar tags already include `bros` and the GGUF size/mtime stamp matches. Missing GGUF: Bros logs once and skips; chat still works (title fallback).
+
+The Bros app calls this model for auto-titles only. After the first successful assistant reply, `generateChatTitle` POSTs to sidecar DNS `http://ollama:11434/api/chat` with `model: "bros"`, `stream: false`, and one user message `Label: ${first user prompt}`. That is not the conversation chat model. Name `bros` is reserved (not listed; pull/delete returns 400).
+
+Production/runtime install is that sidecar path. Do not treat a host `ollama create` as how Bros users get the model.
+
+## Releasing a new model
+
+1. Train, merge, convert, and commit the updated GGUF in this repo (see [Train more things / development](#train-more-things--development)).
+2. Tag a release on [jasenmichael/bros-model](https://github.com/jasenmichael/bros-model).
+3. Bump the pinned submodule in [jasenmichael/bros](https://github.com/jasenmichael/bros) to that tag/commit, then ship a **new Bros version**.
+
+Prefer a new Bros release over asking operators to swap GGUFs by hand. Bros consumes a pinned submodule commit; `./bros update` recopies into the sidecar when the GGUF size/mtime stamp differs.
+
+## Dev: standalone Ollama install
+
+Use this only to develop or try the model on a **local Ollama daemon**. You do not need Python, PyTorch, or training to run the packaged GGUF. This is a convenience — not the Bros production path.
 
 **Prerequisites:** [Ollama](https://ollama.com) installed and the daemon running. If it is not already up, start it in another terminal:
 
@@ -20,17 +54,15 @@ If the daemon is not on `localhost` (default port 11434), set **`OLLAMA_HOST`** 
 export OLLAMA_HOST=http://your-host:11434
 ```
 
-### Standalone clone
-
 ```bash
-git clone https://github.com/<owner>/bros-model.git
+git clone https://github.com/jasenmichael/bros-model.git
 cd bros-model
 ```
 
 Shallow clone (smaller download, no full history):
 
 ```bash
-git clone --depth 1 https://github.com/<owner>/bros-model.git
+git clone --depth 1 https://github.com/jasenmichael/bros-model.git
 cd bros-model
 ```
 
@@ -40,7 +72,7 @@ Register the packaged model as **`bros`**:
 bash scripts/install-ollama.sh
 ```
 
-(`scripts/build-ollama.sh` is the same command — it delegates to `install-ollama.sh`.)
+(`scripts/build-ollama.sh` is the same command — it delegates to `install-ollama.sh`.) The script resolves the repo root from its own path, so it also works from the Bros submodule checkout at `vendor/bros-model`.
 
 Try it:
 
@@ -59,19 +91,6 @@ Expected reply — **label only**, no explanation:
 ```text
 Docker Networking
 ```
-
-### Bros app (git submodule)
-
-The Bros app clones or submodules this repo and installs the same GGUF into its bundled Ollama. From the app repo:
-
-```bash
-git submodule add https://github.com/<owner>/<repo>.git vendor/bros
-git submodule update --init --recursive
-# Ollama already running in the Bros app sidecar:
-bash vendor/bros/scripts/install-ollama.sh
-```
-
-The install script resolves the repo root from its own path, so it works from any checkout location.
 
 ### Missing packaged model
 
@@ -145,11 +164,13 @@ bash scripts/convert-to-gguf.sh /path/to/llama.cpp
 
 Requires merged weights at `output/merged/` and an existing [llama.cpp](#installing--using-llamacpp) checkout with `convert_hf_to_gguf.py` and `llama-quantize`.
 
-Commit the updated `models/bros-q4_k_m.gguf` if it still fits under GitHub’s **100 MB** file limit. Then reinstall into Ollama:
+Commit the updated `models/bros-q4_k_m.gguf` if it still fits under GitHub’s **100 MB** file limit. Then reinstall into a local Ollama daemon for a smoke test:
 
 ```bash
 bash scripts/install-ollama.sh
 ```
+
+To ship it to Bros users, tag a release and bump the submodule — see [Releasing a new model](#releasing-a-new-model). Do not ask operators to run `ollama create` on a host daemon.
 
 ### 6. Modelfile tweaks for longer replies
 
@@ -157,7 +178,7 @@ bash scripts/install-ollama.sh
 
 ## Why the model is tiny
 
-The Bros app packages Ollama and installs this model from git. The packaged GGUF should stay **under 100 MB** so it can live in GitHub (100 MB file limit) and ship as a sidecar. A 135M instruct model quantized to Q4 is the right size. Do not swap in a larger base model to add skills.
+The Bros app vendors this repo and installs the GGUF into the **Ollama sidecar**. The packaged GGUF should stay **under 100 MB** so it can live in GitHub (100 MB file limit) and ship inside that sidecar. A 135M instruct model quantized to Q4 is the right size. Do not swap in a larger base model to add skills.
 
 ## Base model
 
@@ -336,17 +357,20 @@ Steps performed:
 2. Quantize to `models/bros-q4_k_m.gguf` with the fallback chain above
 3. Print the selected quant type and byte size
 
-After a successful convert, commit the updated `models/bros-q4_k_m.gguf` if it still fits under 100 MB.
+After a successful convert, commit the updated `models/bros-q4_k_m.gguf` if it still fits under 100 MB. Then [release](#releasing-a-new-model) via a Bros submodule bump — not a host-daemon install for operators.
 
 ## Ollama runtime
 
-Bros runs in production through **Ollama only**. The Bros app calls the Ollama API; it does not need Python, PyTorch, Transformers, or Hugging Face at runtime.
+Production is the **Bros Ollama sidecar** only. The Bros app calls the sidecar Ollama API (`http://ollama:11434`); it does not need Python, PyTorch, Transformers, or Hugging Face at runtime. Host `ollama serve` is a [dev convenience](#dev-standalone-ollama-install), not how operators install the model.
 
 ```text
-Bros app → Ollama API → bros → short label
+Bros app
+    sidecar Ollama API (http://ollama:11434)
+        bros
+            Label: title
 ```
 
-For install and run steps, see [Clone and install into Ollama](#clone-and-install-into-ollama).
+For the sidecar wiring, see [How the Bros app installs it](#how-the-bros-app-installs-it).
 
 ### Modelfile (`ollama/Modelfile`)
 
@@ -375,7 +399,7 @@ Non-interactive; safe for CI and app install hooks.
 - Greedy decoding and a 16-token cap favor short labels, not long answers.
 - Quantization (Q4) costs some quality versus the merged fp16/bf16 checkpoint.
 - CPU training works but is slow.
-- This repository does not implement the Bros application.
+- This repository does not implement the Bros application. Runtime lives in [jasenmichael/bros](https://github.com/jasenmichael/bros).
 
 ## Reproducibility
 
