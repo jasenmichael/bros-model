@@ -1300,3 +1300,14 @@
 {"prompt": "Label: what's a good default activation rate", "completion": "Activation Rate Target", "task": "label"}
 {"prompt": "Label: why does my spa show a blank page after deploy", "completion": "SPA Blank Deploy", "task": "label"}
 {"prompt": "Label: how do I get a refund on a nonrefundable hotel", "completion": "Hotel Refund Request", "task": "label"}
+{"prompt": "Task: fix the null check in the auth middleware", "completion": "code", "task": "task"}
+{"prompt": "Task: what changed in the docker compose file", "completion": "code", "task": "task"}
+{"prompt": "Task: look up the current firecrawl scrape api", "completion": "research", "task": "task"}
+{"prompt": "Task: compare two sources on this outage", "completion": "research", "task": "task"}
+{"prompt": "Task: write the README section for sidecars", "completion": "docs", "task": "task"}
+{"prompt": "Task: turn this note into a spec paragraph", "completion": "docs", "task": "task"}
+{"prompt": "Task: make this reply shorter and calmer", "completion": "rewrite", "task": "task"}
+{"prompt": "Task: pull the invoice number out of this paste", "completion": "data", "task": "task"}
+{"prompt": "Task: why is the ollama sidecar restarting", "completion": "ops", "task": "task"}
+{"prompt": "Task: break this feature into steps", "completion": "plan", "task": "task"}
+{"prompt": "Task: what should I cook tonight", "completion": "chat", "task": "task"}

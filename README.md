@@ -1,6 +1,6 @@
 # Bros specialist model
 
-This repository is the **[Bros](https://github.com/jasenmichael/bros) app internal specialist** — a small Ollama model installed into the Bros **Ollama sidecar**. It is not a standalone chatbot and not a Chat or Models picker model. Users of the Bros app never select it.
+This repository is the **[Bros](https://github.com/jasenmichael/bros) app internal specialist** — a small Ollama model installed into the Bros **Ollama sidecar**. It is not a standalone chatbot and it is not listed in Chat or Providers. Users of the Bros app never select it.
 
 - Model repo: https://github.com/jasenmichael/bros-model
 - Bros app: https://github.com/jasenmichael/bros
@@ -17,12 +17,12 @@ Packaged artifacts:
 
 [Bros](https://github.com/jasenmichael/bros) vendors this repo as git submodule `vendor/bros-model`.
 
-When the Ollama sidecar starts (`startSidecar('ollama')`) and when `/api/models` sees that sidecar running, Bros `ensureInternalBrosModel()`:
+When the Ollama sidecar starts (`startSidecar('ollama')`) and when `GET /api/providers` sees that sidecar running, Bros `ensureInternalBrosModel()`:
 
-1. Copies `models/`, `ollama/`, and `scripts/` onto `$BROS_HOST_DATA_DIR/bros-model`
-2. Bind-mounts that tree into the sidecar: `${BROS_HOST_DATA_DIR}/bros-model:/bros-model:ro`
+1. Copies `models/`, `ollama/`, and `scripts/` onto `$BROS_HOST_DATA_DIR/ollama/bros-model`
+2. Bind-mounts that tree into the sidecar: `${BROS_HOST_DATA_DIR}/ollama/bros-model:/bros-model:ro`
 3. Exec inside `bros-sc-ollama`: `bash /bros-model/scripts/install-ollama.sh` (`ollama create bros -f ollama/Modelfile`)
-4. Writes the created model into sidecar `/root/.ollama` (`$BROS_HOST_DATA_DIR/ollama`)
+4. Writes the created model into sidecar `/root/.ollama` (`$BROS_HOST_DATA_DIR/ollama/root/.ollama`)
 
 Skip if sidecar tags already include `bros` and the GGUF size/mtime stamp matches. Missing GGUF: Bros logs once and skips; chat still works (title fallback).
 
