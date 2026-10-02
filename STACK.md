@@ -23,7 +23,7 @@ Do not install bitsandbytes / QLoRA. 135M LoRA fits in 16 GB VRAM in bf16 or fp1
 - [jasenmichael/bros](https://github.com/jasenmichael/bros) git submodule `vendor/bros-model`
 - Packaged file `models/bros-q4_k_m.gguf`
 - Modelfile `ollama/Modelfile`
-- Bros copies `models/` + `ollama/` + `scripts/` onto `$BROS_HOST_DATA_DIR/bros-model` and bind-mounts `/bros-model:ro` into `bros-sc-ollama`
+- Bros copies `models/` + `ollama/` + `scripts/` onto `$BROS_HOST_DATA_DIR/ollama/bros-model` and bind-mounts that tree at `/bros-model:ro` into `bros-sc-ollama`
 - Inside the sidecar: `bash /bros-model/scripts/install-ollama.sh` registers Ollama name `bros`
 - The Bros app does not need Python, PyTorch, Transformers, or Hugging Face at runtime
 

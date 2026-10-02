@@ -2,7 +2,7 @@
 
 This repository is the **[Bros](https://github.com/jasenmichael/bros) app internal specialist** — a small local language model installed into the Bros **Ollama sidecar**.
 
-It is not a general-purpose chatbot and not a Chat or Models picker model. The Bros app calls it for short, well-defined jobs. Users never select it.
+It is not a general-purpose chatbot and it is not listed in Chat or Providers. The Bros app calls it for short, well-defined jobs. Users never select it.
 
 - Model: https://github.com/jasenmichael/bros-model
 - App: https://github.com/jasenmichael/bros
