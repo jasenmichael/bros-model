@@ -1,0 +1,51 @@
+name: Bump
+
+on:
+  pull_request:
+    types: [opened, synchronize]
+    branches: [main]
+
+permissions:
+  contents: write
+
+jobs:
+  bump:
+    if: github.event.pull_request.head.repo.full_name == github.repository
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.pull_request.head.sha }}
+          fetch-depth: 0
+          persist-credentials: true
+      - name: Bump on the pull request branch
+        env:
+          HEAD_REF: ${{ github.head_ref }}
+        run: |
+          set -euo pipefail
+          git fetch origin main
+          cur="$(tr -d '[:space:]' < VERSION)"
+          if ! git ls-remote --tags origin "refs/tags/v${cur}" | grep -q .; then
+            exit 0
+          fi
+          want="$(scripts/bump-type.sh origin/main)"
+          if [[ -z "$want" ]]; then
+            exit 0
+          fi
+          rank() {
+            case "$1" in
+              major) printf '3\n' ;;
+              minor) printf '2\n' ;;
+              patch) printf '1\n' ;;
+              *) printf '0\n' ;;
+            esac
+          }
+          have="$(git log origin/main..HEAD --format=%s | grep -m1 '^chore: bump ' || true)"
+          if [[ -n "$have" ]]; then
+            have_type="$(printf '%s\n' "$have" | awk '{print $3}')"
+            if [[ "$(rank "$want")" -le "$(rank "$have_type")" ]]; then
+              exit 0
+            fi
+          fi
+          scripts/bump.sh "$want"
+          git push origin "HEAD:${HEAD_REF}"

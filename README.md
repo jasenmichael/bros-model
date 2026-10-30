@@ -407,3 +407,11 @@ Non-interactive; safe for CI and app install hooks.
 - Split: 80 / 10 / 10 from `data/source.jsonl`
 - Base model id is pinned by name, not a commit hash (Hugging Face updates can change weights)
 - Dependency lower bounds are in `pyproject.toml`; install current compatible releases
+
+## Release
+
+`VERSION` is the packaged release (`1.0.0`). The next merge to `main` tags `v1.0.0` and uploads `bros-model.tar.gz` (`models/`, `ollama/`, `scripts/`). It does not bump that number and does not push a commit to `main`. `pyproject.toml` stays the training package at `0.1.0`.
+
+Until tag `v1.0.0` exists, a pull request does not bump `VERSION`. After that tag exists, commit type chooses the bump: `feat` minor, `fix` and `perf` patch, `feat!` or a `BREAKING CHANGE` footer major. `chore`, `docs`, `refactor`, `test`, and `ci` do not bump. The workflow commits `chore: bump <type> to X.Y.Z` on the pull request branch.
+
+Bros `0.0.1` already records `lib/apps/core/ollama/BROS_MODEL_VERSION` `1.0.0`, so this first tag does not open a Bros pull request. A later merge that changes `VERSION` opens one Bros pull request with that tag and a Bros minor bump.
