@@ -1,19 +1,19 @@
 # SPEC
 
-This repository is the **[Bros](https://github.com/jasenmichael/bros) app internal specialist** — a small local language model installed into the Bros **Ollama sidecar**.
+This repository is the **[Bros](https://github.com/jasenmichael/bros) app internal specialist** — a small local language model installed into the Bros **Ollama docker app**.
 
 It is not a general-purpose chatbot and it is not listed in Chat or Providers. The Bros app calls it for short, well-defined jobs. Users never select it.
 
 - Model: https://github.com/jasenmichael/bros-model
 - App: https://github.com/jasenmichael/bros
 
-Bros vendors this repo as git submodule `vendor/bros-model`. At runtime the app copies the packaged tree onto sidecar data and runs `bash scripts/install-ollama.sh` inside `bros-sc-ollama` (`ollama create bros`). Ollama name `bros` is reserved.
+Bros vendors this repo as git submodule `vendor/bros-model`. At runtime the app copies the packaged tree onto docker app data and runs `bash scripts/install-ollama.sh` inside `bros-ollama` (`ollama create bros`). Ollama name `bros` is reserved.
 
 ## v1 behavior
 
 First shipped skill: chat labeling.
 
-After the first successful assistant reply, the Bros app POSTs to sidecar DNS `http://ollama:11434/api/chat` with `model: "bros"` and one user message:
+After the first successful assistant reply, the Bros app POSTs to docker app DNS `http://ollama:11434/api/chat` with `model: "bros"` and one user message:
 
 ```text
 Label: How do I configure a Cloudflare tunnel with Docker?
@@ -38,7 +38,7 @@ That call is not the conversation chat model. If generate fails, the app keeps `
 
 ## Later skills
 
-The same 135M model, same Ollama name (`bros`), same git-submodule + sidecar install path.
+The same 135M model, same Ollama name (`bros`), same git-submodule + docker app install path.
 
 New Bros-app mini-tasks are additional JSONL examples plus a retrain from the merged checkpoint. Each skill uses a distinct tag (`Label:`, later `Title:`, and so on). The app must send the same tag the model was trained with.
 

@@ -1,6 +1,6 @@
 # STACK
 
-This repo trains and packages the **[Bros](https://github.com/jasenmichael/bros) app internal specialist**. Production runtime is the Bros **Ollama sidecar**. Host Ollama is a dev convenience only.
+This repo trains and packages the **[Bros](https://github.com/jasenmichael/bros) app internal specialist**. Production runtime is the Bros **Ollama docker app**. Host Ollama is a dev convenience only.
 
 ## Training (this repository)
 
@@ -18,18 +18,18 @@ Do not install bitsandbytes / QLoRA. 135M LoRA fits in 16 GB VRAM in bf16 or fp1
 - `convert_hf_to_gguf.py` for FP16 GGUF
 - `llama-quantize` for Q4_K_M (this build fell back to Q4_0 at 91,726,752 bytes because Q4_K_M was 105,453,984 bytes)
 
-## Production (Bros app sidecar)
+## Production (Bros app docker app)
 
 - [jasenmichael/bros](https://github.com/jasenmichael/bros) git submodule `vendor/bros-model`
 - Packaged file `models/bros-q4_k_m.gguf`
 - Modelfile `ollama/Modelfile`
-- Bros copies `models/` + `ollama/` + `scripts/` onto `$BROS_HOST_DATA_DIR/ollama/bros-model` and bind-mounts that tree at `/bros-model:ro` into `bros-sc-ollama`
-- Inside the sidecar: `bash /bros-model/scripts/install-ollama.sh` registers Ollama name `bros`
+- Bros copies `models/` + `ollama/` + `scripts/` onto `$BROS_HOST_DATA_DIR/apps/ollama/bros-model` and bind-mounts that tree at `/bros-model:ro` into `bros-ollama`
+- Inside the docker app: `bash /bros-model/scripts/install-ollama.sh` registers Ollama name `bros`
 - The Bros app does not need Python, PyTorch, Transformers, or Hugging Face at runtime
 
 ```text
 Bros app
-    sidecar Ollama API (http://ollama:11434)
+    docker app Ollama API (http://ollama:11434)
         bros
             Label: title
 ```

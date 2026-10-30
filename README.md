@@ -1,6 +1,6 @@
 # Bros specialist model
 
-This repository is the **[Bros](https://github.com/jasenmichael/bros) app internal specialist** — a small Ollama model installed into the Bros **Ollama sidecar**. It is not a standalone chatbot and it is not listed in Chat or Providers. Users of the Bros app never select it.
+This repository is the **[Bros](https://github.com/jasenmichael/bros) app internal specialist** — a small Ollama model installed into the Bros **Ollama docker app**. It is not a standalone chatbot and it is not listed in Chat or Providers. Users of the Bros app never select it.
 
 - Model repo: https://github.com/jasenmichael/bros-model
 - Bros app: https://github.com/jasenmichael/bros
@@ -17,18 +17,18 @@ Packaged artifacts:
 
 [Bros](https://github.com/jasenmichael/bros) vendors this repo as git submodule `vendor/bros-model`.
 
-When the Ollama sidecar starts (`startSidecar('ollama')`) and when `GET /api/providers` sees that sidecar running, Bros `ensureInternalBrosModel()`:
+When the Ollama docker app starts (`startDockerApp('ollama')`) and when `GET /api/providers` sees that docker app running, Bros `ensureInternalBrosModel()`:
 
-1. Copies `models/`, `ollama/`, and `scripts/` onto `$BROS_HOST_DATA_DIR/sidecars/ollama/bros-model`
-2. Bind-mounts that tree into the sidecar: `${BROS_HOST_DATA_DIR}/sidecars/ollama/bros-model:/bros-model:ro`
-3. Exec inside `bros-sc-ollama`: `bash /bros-model/scripts/install-ollama.sh` (`ollama create bros -f ollama/Modelfile`)
+1. Copies `models/`, `ollama/`, and `scripts/` onto `$BROS_HOST_DATA_DIR/apps/ollama/bros-model`
+2. Bind-mounts that tree into the docker app: `${BROS_HOST_DATA_DIR}/apps/ollama/bros-model:/bros-model:ro`
+3. Exec inside `bros-ollama`: `bash /bros-model/scripts/install-ollama.sh` (`ollama create bros -f ollama/Modelfile`)
 4. `ollama create` writes the model into `$HOME/.ollama` (`$BROS_HOST_DATA_DIR/home/.ollama`)
 
-Skip if sidecar tags already include `bros` and the GGUF size/mtime stamp matches. Missing GGUF: Bros logs once and skips; chat still works (title fallback).
+Skip if docker app tags already include `bros` and the GGUF size/mtime stamp matches. Missing GGUF: Bros logs once and skips; chat still works (title fallback).
 
-The Bros app calls this model for auto-titles only. After the first successful assistant reply, `generateChatTitle` POSTs to sidecar DNS `http://ollama:11434/api/chat` with `model: "bros"`, `stream: false`, and one user message `Label: ${first user prompt}`. That is not the conversation chat model. Name `bros` is reserved (not listed; pull/delete returns 400).
+The Bros app calls this model for auto-titles only. After the first successful assistant reply, `generateChatTitle` POSTs to docker app DNS `http://ollama:11434/api/chat` with `model: "bros"`, `stream: false`, and one user message `Label: ${first user prompt}`. That is not the conversation chat model. Name `bros` is reserved (not listed; pull/delete returns 400).
 
-Production/runtime install is that sidecar path. Do not treat a host `ollama create` as how Bros users get the model.
+Production/runtime install is that docker app path. Do not treat a host `ollama create` as how Bros users get the model.
 
 ## Releasing a new model
 
@@ -36,7 +36,7 @@ Production/runtime install is that sidecar path. Do not treat a host `ollama cre
 2. Tag a release on [jasenmichael/bros-model](https://github.com/jasenmichael/bros-model).
 3. Bump the pinned submodule in [jasenmichael/bros](https://github.com/jasenmichael/bros) to that tag/commit, then ship a **new Bros version**.
 
-Prefer a new Bros release over asking operators to swap GGUFs by hand. Bros consumes a pinned submodule commit; `./bros update` recopies into the sidecar when the GGUF size/mtime stamp differs.
+Prefer a new Bros release over asking operators to swap GGUFs by hand. Bros consumes a pinned submodule commit; `./bros update` recopies into the docker app when the GGUF size/mtime stamp differs.
 
 ## Dev: standalone Ollama install
 
@@ -178,7 +178,7 @@ To ship it to Bros users, tag a release and bump the submodule — see [Releasin
 
 ## Why the model is tiny
 
-The Bros app vendors this repo and installs the GGUF into the **Ollama sidecar**. The packaged GGUF should stay **under 100 MB** so it can live in GitHub (100 MB file limit) and ship inside that sidecar. A 135M instruct model quantized to Q4 is the right size. Do not swap in a larger base model to add skills.
+The Bros app vendors this repo and installs the GGUF into the **Ollama docker app**. The packaged GGUF should stay **under 100 MB** so it can live in GitHub (100 MB file limit) and ship inside that docker app. A 135M instruct model quantized to Q4 is the right size. Do not swap in a larger base model to add skills.
 
 ## Base model
 
@@ -361,16 +361,16 @@ After a successful convert, commit the updated `models/bros-q4_k_m.gguf` if it s
 
 ## Ollama runtime
 
-Production is the **Bros Ollama sidecar** only. The Bros app calls the sidecar Ollama API (`http://ollama:11434`); it does not need Python, PyTorch, Transformers, or Hugging Face at runtime. Host `ollama serve` is a [dev convenience](#dev-standalone-ollama-install), not how operators install the model.
+Production is the **Bros Ollama docker app** only. The Bros app calls the docker app Ollama API (`http://ollama:11434`); it does not need Python, PyTorch, Transformers, or Hugging Face at runtime. Host `ollama serve` is a [dev convenience](#dev-standalone-ollama-install), not how operators install the model.
 
 ```text
 Bros app
-    sidecar Ollama API (http://ollama:11434)
+    docker app Ollama API (http://ollama:11434)
         bros
             Label: title
 ```
 
-For the sidecar wiring, see [How the Bros app installs it](#how-the-bros-app-installs-it).
+For the docker app wiring, see [How the Bros app installs it](#how-the-bros-app-installs-it).
 
 ### Modelfile (`ollama/Modelfile`)
 
