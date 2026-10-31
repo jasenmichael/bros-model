@@ -19,10 +19,10 @@ Packaged artifacts:
 
 When the Ollama docker app starts (`startDockerApp('ollama')`) and when `GET /api/providers` sees that docker app running, Bros `ensureInternalBrosModel()`:
 
-1. Copies `models/`, `ollama/`, and `scripts/` onto `$BROS_HOST_DATA_DIR/apps/ollama/bros-model`
-2. Bind-mounts that tree into the docker app: `${BROS_HOST_DATA_DIR}/apps/ollama/bros-model:/bros-model:ro`
+1. Copies `models/`, `ollama/`, and `scripts/` onto `$BROS_DATA_DIR/apps/ollama/bros-model`
+2. Bind-mounts that tree into the docker app: `${BROS_DATA_DIR}/apps/ollama/bros-model:/bros-model:ro`
 3. Exec inside `bros-ollama`: `bash /bros-model/scripts/install-ollama.sh` (`ollama create bros -f ollama/Modelfile`)
-4. `ollama create` writes the model into `$HOME/.ollama` (`$BROS_HOST_DATA_DIR/home/.ollama`)
+4. `ollama create` writes the model into `$HOME/.ollama` (`$BROS_DATA_DIR/home/.ollama`)
 
 Skip if docker app tags already include `bros` and the GGUF size/mtime stamp matches. Missing GGUF: Bros logs once and skips; chat still works (title fallback).
 
